@@ -37,17 +37,18 @@ def ouderbericht():
         ("Wanneer:", "woensdag 18 november 2026. Vertrek om 13.30 uur, terug om 16.30 uur."),
         ("Ophalen:", "vanaf 16.30 uur in De Speelboom"),
         ("Meegeven:", "laarzen, een regenjas en een drinkbus met water"),
+        ("Berichtjes:", "De Speelboom stuurt de ouders berichtjes via een eigen app: de Speelboom-app."),
         ("Jouw rol:", "stagiair. Je mentor Lien Verhoeven vraagt jou het bericht aan de ouders te schrijven."),
     ])
 
     # ---- Deel 1
     deel(doc, 1, "Welk kanaal?")
-    tabel(doc, ["Situatie", "App, bellen of gesprek?", "Waarom?"], [
+    tabel(doc, ["Situatie", "Speelboom-app, bellen of gesprek?", "Waarom?"], [
         ("a.  Woensdag 18 november gaan De Eekhoorns naar het speelbos. Alle ouders moeten laarzen meegeven.",
-         "app", "praktisch nieuws voor alle ouders"),
+         "Speelboom-app", "praktisch nieuws voor alle ouders"),
         ("b.  Om 15 uur heeft een kind 39 °C koorts. Het moet naar huis.", "", ""),
         ("c.  Een kind heeft vandaag een ander kind gebeten. Je wil dat met de ouders bespreken.", "", ""),
-        ("d.  Een papa vraagt in de app of de muts van zijn dochter nog in De Speelboom ligt.", "", ""),
+        ("d.  Een papa vraagt met een berichtje in de Speelboom-app of de muts van zijn dochter nog in De Speelboom ligt.", "", ""),
         ("e.  Een mama vraagt je gsm-nummer, zodat ze je via WhatsApp kan sturen.", "", ""),
     ], [7.4, 3.4, BREEDTE - 7.4 - 3.4], invul=(1, 2), rijhoogte=1.5, voorbeeld_rij=1)
 
@@ -79,7 +80,7 @@ def ouderbericht():
     # ---- Deel 5: nalezen = de criteria van de beoordeling (lesvoorbereiding § 22)
     deel(doc, 5, "Nalezen")
     controletabel(doc, [
-        ("Deel 1: bij b tot e staat *app*, *bellen* of *gesprek*, met een reden.", 4),
+        ("Deel 1: bij b tot e staat *Speelboom-app*, *bellen* of *gesprek*, met een reden.", 4),
         ("Deel 2: ik vond vier fouten en schreef erbij hoe het beter kan.", 2),
         ("Deel 3: bij Aan staat *Alle ouders van De Eekhoorns*, en ik schreef een duidelijke titel.", 2),
         ("Deel 3: mijn bericht zegt wat, welke dag en hoe laat (in cijfers), en wat de ouders meegeven.", 4),
@@ -88,12 +89,12 @@ def ouderbericht():
         ("Deel 3: geen hoofdletters, chattaal, dialect of emoji's, en geen andere kinderen bij naam.", 2),
         ("Deel 4: wat er misging, de zin in eenvoudige taal en twee passende pictogrammen.", 2),
     ])
-    vraag(doc, "Waarom vertel je moeilijk nieuws liever niet in de app?")
+    vraag(doc, "Waarom vertel je moeilijk nieuws liever niet met een berichtje in de Speelboom-app?")
     antwoordvak(doc, 1.8)
 
     # ---- Extra
     deel(doc, None, "Extra — niet verplicht")
-    vraag(doc, "Een mama antwoordt in de app: “Mijn zoon heeft geen laarzen. Mag hij met sportschoenen komen?” "
+    vraag(doc, "Een mama antwoordt met een berichtje in de Speelboom-app: “Mijn zoon heeft geen laarzen. Mag hij met sportschoenen komen?” "
                "Schrijf een kort, vriendelijk antwoord.")
     antwoordvak(doc, 2.4)
 

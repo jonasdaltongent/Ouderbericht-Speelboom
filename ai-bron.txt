@@ -30,11 +30,11 @@ Je werkdocument Ouderbericht
 
 Hier schrijf je je bericht. Dit lever je in.
 
-Het venster in je werkdocument lijkt op de Speelboom-app. Je verstuurt niets echt.
+De Speelboom stuurt de ouders berichtjes via een eigen app: de Speelboom-app. Het venster in je werkdocument lijkt op die app. Je verstuurt niets echt.
 
 Na deze les kan je
 
-- kiezen of je een bericht stuurt, belt of het vertelt bij het afhalen;
+- kiezen of je een berichtje stuurt in de Speelboom-app, belt of het vertelt bij het afhalen;
 
 - een kort, positief en beleefd bericht aan alle ouders schrijven;
 
@@ -61,7 +61,7 @@ Alles op één plek. Kom hier terug als je iets niet meer weet.
 
 Welk kanaal?
 
-| App | praktisch nieuws voor alle ouders, of een korte vraag van een ouder
+| Speelboom-app | een berichtje: praktisch nieuws voor alle ouders, of een korte vraag van een ouder
 
 | Bellen | de ouder moet meteen iets doen of beslissen
 
@@ -131,7 +131,7 @@ Pictogrammen
 
 Woorden
 
-| kanaal | de weg waarlangs je bericht gaat: de app, de telefoon, een gesprek
+| kanaal | de weg waarlangs je bericht gaat: een berichtje in de Speelboom-app, de telefoon, een gesprek
 
 | register | hoe formeel je schrijft: u of je, je woorden, je zinnen
 
@@ -147,7 +147,7 @@ Woorden
 
 Veelgemaakte fouten
 
-- Een ziek kind of een ruzie melden in de app in plaats van te bellen of te praten.
+- Een ziek kind of een ruzie melden met een berichtje in de Speelboom-app in plaats van te bellen of te praten.
 
 - Een ander kind bij naam in een bericht aan alle ouders.
 
@@ -217,7 +217,7 @@ Stap 2 Werkdocument, deel 1
 
 Welk kanaal?
 
-Een bericht in de app is niet altijd de beste weg. Je kiest het kanaal volgens wat de ouder moet doen.
+Een berichtje in de Speelboom-app is niet altijd de beste weg. Je kiest het kanaal volgens wat de ouder moet doen.
 
 Wat moet je doen?
 
@@ -228,10 +228,10 @@ Bekijk deel 1 van je werkdocument. Rij a is al ingevuld.
 Scroll naar Deel 1. Rij a staat al ingevuld: zo kies je.
 
 -
-Kies bij situatie b tot e: app, bellen of gesprek.
+Kies bij situatie b tot e: Speelboom-app, bellen of gesprek.
 
 -
-Lees situatie b. Zoek: moet de ouder meteen iets doen? Klik in het vak onder App, bellen of gesprek? en typ je keuze.
+Lees situatie b. Zoek: moet de ouder meteen iets doen? Klik in het vak onder Speelboom-app, bellen of gesprek? en typ je keuze.
 
 -
 Klik in het vak onder Waarom? en typ waarom.
@@ -241,13 +241,13 @@ Doe hetzelfde voor situatie c, d en e. Bij e: kijk op het kaartje hieronder wat 
 
 Twijfel je tussen bellen en gesprek? Moet de ouder meteen iets doen of beslissen? Dan bel je. Is het moeilijk nieuws? Dan praat je met de ouder.
 
-App Praktisch nieuws voor alle ouders, of een korte vraag van een ouder.
+Speelboom-app Een berichtje: praktisch nieuws voor alle ouders, of een korte vraag van een ouder.
 
 Bellen De ouder moet meteen iets doen of beslissen.
 
 Gesprek Moeilijk of gevoelig nieuws. Bij het afhalen.
 
-Je geeft je eigen gsm-nummer niet. Je gebruikt het kanaal van De Speelboom, niet WhatsApp. Voorbeeld, rij a: alle ouders moeten laarzen meegeven. Dat is app, want het is praktisch nieuws voor alle ouders.
+Je geeft je eigen gsm-nummer niet. Je gebruikt het kanaal van De Speelboom, niet WhatsApp. Voorbeeld, rij a: alle ouders moeten laarzen meegeven. Dat is Speelboom-app: je stuurt een berichtje, want het is praktisch nieuws voor alle ouders.
 
 ======================================================================
 STAP 3 — Wat is er mis?
@@ -485,7 +485,7 @@ Klopt iets nog niet? Verbeter eerst je bericht.
 Beantwoord de slotvraag.
 
 -
-Klik in het vak onder Waarom vertel je moeilijk nieuws liever niet in de app? en typ je antwoord.
+Klik in het vak onder Waarom vertel je moeilijk nieuws liever niet met een berichtje in de Speelboom-app? en typ je antwoord.
 
 -
 Lever in.
@@ -507,7 +507,7 @@ Extra · niet verplicht
 
 Antwoord aan een mama
 
-Begin hier pas nadat je hebt ingeleverd. Het telt niet mee. Een mama antwoordt in de app.
+Begin hier pas nadat je hebt ingeleverd. Het telt niet mee. Een mama antwoordt met een berichtje in de Speelboom-app.
 
 De mama schrijft
 Mijn zoon heeft geen laarzen. Mag hij met sportschoenen komen?
@@ -540,7 +540,7 @@ CHECKLIST (rechts op de lespagina)
 
 2 · Welk kanaal?
 
-[ ] Situatie b tot e: app, bellen of gesprek
+[ ] Situatie b tot e: Speelboom-app, bellen of gesprek
 [ ] Bij elke situatie een reden
 
 3 · Wat is er mis?

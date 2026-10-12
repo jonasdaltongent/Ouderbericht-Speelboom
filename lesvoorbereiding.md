@@ -101,7 +101,7 @@ Letterlijk uit `Leerplannen/Leerplannen_2de_graad_TOINFO_MW_dubbele_finaliteit.m
 
 | De leerling … | Bloom | Kennisdimensie |
 |---|---|---|
-| kiest bij een situatie in de opvang tussen de app, bellen en een gesprek, en zegt waarom | toepassen | conceptueel |
+| kiest bij een situatie in de opvang tussen een berichtje in de Speelboom-app, bellen en een gesprek, en zegt waarom | toepassen | conceptueel |
 | benoemt in een zwak app-bericht wat bij ouders verkeerd overkomt (hoofdletters, emoji, dialect, negatief, een ander kind bij naam) | analyseren | conceptueel |
 | schrijft een kort, positief en beleefd bericht aan alle ouders van een groep, met wat, wanneer en wat ze meegeven | toepassen | procedureel |
 | herschrijft een zin in eenvoudige taal en legt uit waarom een vertaalmachine die beter vertaalt | begrijpen / toepassen | conceptueel |
@@ -168,12 +168,12 @@ label; zonder knop *Verzenden*; op een eigen bladzijde. (Werkt het goed, dan hoo
 - **Kader *De uitstap*** (§ 4): wie (groep De Eekhoorns, 6 tot 9 jaar), wat (naar het speelbos), wanneer
   (woensdag 18 november 2026, vertrek 13.30 uur, terug 16.30 uur), ophalen (vanaf 16.30 uur in De Speelboom),
   meegeven (laarzen, regenjas, drinkbus met water), jouw rol (stagiair, mentor Lien Verhoeven).
-- **Deel 1 — Welk kanaal?** Tabel *Situatie · App, bellen of gesprek? · Waarom?*; rij a is ingevuld (grijs).
+- **Deel 1 — Welk kanaal?** Tabel *Situatie · Speelboom-app, bellen of gesprek? · Waarom?*; rij a is ingevuld (grijs).
   - a. Woensdag 18 november gaan De Eekhoorns naar het speelbos. Alle ouders moeten laarzen meegeven.
-    → **app** · *praktisch nieuws voor alle ouders* (ingevuld)
+    → **Speelboom-app** · *praktisch nieuws voor alle ouders* (ingevuld)
   - b. Om 15 uur heeft een kind 39 °C koorts. Het moet naar huis.
   - c. Een kind heeft vandaag een ander kind gebeten. Je wil dat met de ouders bespreken.
-  - d. Een papa vraagt in de app of de muts van zijn dochter nog in De Speelboom ligt.
+  - d. Een papa vraagt met een berichtje in de Speelboom-app of de muts van zijn dochter nog in De Speelboom ligt.
   - e. Een mama vraagt je gsm-nummer, zodat ze je via WhatsApp kan sturen.
 - **Deel 2 — Wat is er mis met het bericht van Kobe?** Tabel *Wat is er mis? · Hoe kan het beter?*, vijf rijen;
   rij 1 is ingevuld (grijs): *Alles in hoofdletters en drie uitroeptekens: dat leest als roepen.* · *Begin met
@@ -186,15 +186,15 @@ label; zonder knop *Verzenden*; op een eigen bladzijde. (Werkt het goed, dan hoo
   letters.* (De zinnen en de pictogrammen A–F staan op de lespagina; in de tabel mag Kobes tweede zin als kort
   citaat staan.)
 - **Deel 5 — Nalezen.** De criteria van § 22 als `controletabel` (de leerling typt een x, de leraar zet de
-  punten), en de slotvraag: *Waarom vertel je moeilijk nieuws liever niet in de app?*
-- **Extra — niet verplicht**: *Een mama antwoordt in de app: "Mijn zoon heeft geen laarzen. Mag hij met
+  punten), en de slotvraag: *Waarom vertel je moeilijk nieuws liever niet met een berichtje in de Speelboom-app?*
+- **Extra — niet verplicht**: *Een mama antwoordt met een berichtje in de Speelboom-app: "Mijn zoon heeft geen laarzen. Mag hij met
   sportschoenen komen?" Schrijf een kort, vriendelijk antwoord.*
 
 **Verwachte antwoorden** (ook voor de verbetersleutel in de README)
 
 - Deel 1: b **bellen** (de ouder moet meteen iets doen; een bericht wordt misschien te laat gelezen) · c
   **gesprek** bij het afhalen (bellen mag ook): gevoelig, de ouder moet je kunnen horen en zien en iets kunnen
-  vragen · d **app**: een korte, praktische vraag, antwoord in de app · e **app van De Speelboom**: als
+  vragen · d **Speelboom-app**: een korte, praktische vraag, antwoord met een berichtje · e **Speelboom-app**: als
   stagiair geef je je eigen gsm-nummer niet; berichten gaan via de opvang.
 - Deel 2, zes mogelijke fouten (vier zijn genoeg): hoofdletters en *!!!* (ingevuld) · geen titel en geen naam:
   de ouders weten niet waarover het gaat en wie het stuurt · negatief (*anders zijn de kleren vuil en da is
@@ -247,7 +247,7 @@ opvang komen.* ③ *Geef een knuffel mee: we lezen samen een verhaal.* ④ *De k
 | Stap | Titel | Min. | Werkdocument | Wat op de lespagina |
 |---|---|---|---|---|
 | 1 | Start | 5 | kader *De uitstap* | quiz *Weet je het nog?*; het werkdocument openen in een tweede tabblad; het kader lezen met een doel: *Waar gaan De Eekhoorns naartoe, en wanneer?* |
-| 2 | Welk kanaal? | 8 | deel 1 | kaartje *app · bellen · gesprek · niet je eigen gsm*, met rij a als voorbeeld |
+| 2 | Welk kanaal? | 8 | deel 1 | kaartje *Speelboom-app · bellen · gesprek · niet je eigen gsm*, met rij a als voorbeeld |
 | 3 | Wat is er mis? | 8 | deel 2 | het bericht van Kobe in een tekening van de Speelboom-app; leesdoel: *Zoek vier dingen die bij een ouder verkeerd overkomen* |
 | 4 | Jouw bericht | 15 | deel 3 | het bericht van Lien met de vijf delen; het bouwplan; *jullie*, het uur in cijfers |
 | 5 | Voor elke ouder | 7 | deel 4 | de vertalingen van Kobes zinnen (§ *Bronnenonderzoek*, proef met Google Vertalen); de pictogrammen A–F; na het invullen een knop *Kijk na* die de vertaling van de eenvoudige zin toont |
@@ -292,7 +292,7 @@ Op 20 punten, beoordeeld op het werkdocument (vooral deel 3, het eigen bericht):
 | Deel 3: geen hoofdletters, chattaal, dialect of emoji's, en geen andere kinderen bij naam | 2 |
 | Deel 4: wat er misging, de zin in eenvoudige taal en twee passende pictogrammen | 2 |
 
-**Essentiële fouten** (altijd feedback): bij koorts een bericht in de app in plaats van bellen · andere kinderen
+**Essentiële fouten** (altijd feedback): bij koorts een berichtje in de Speelboom-app in plaats van bellen · andere kinderen
 bij naam in een bericht aan alle ouders · geen dag of geen uur · hoofdletters, chattaal of emoji's · geen naam
 onder het bericht.
 

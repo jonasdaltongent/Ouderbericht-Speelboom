@@ -172,7 +172,7 @@ Er is geen les in het lokaal. Dit is wat een leerling thuis doet (50 minuten, vo
 | Stap | Titel | Min. | Werkdocument | Wat gebeurt er |
 |---|---|---|---|---|
 | 1 | Start | 5 | kader *De uitstap* | quiz *Weet je het nog?* (3 vragen, direct uitleg), werkdocument openen, kader lezen met een doel |
-| 2 | Welk kanaal? | 8 | deel 1 | app, bellen of gesprek bij vier situaties, met een reden (rij a is ingevuld) |
+| 2 | Welk kanaal? | 8 | deel 1 | Speelboom-app, bellen of gesprek bij vier situaties, met een reden (rij a is ingevuld) |
 | 3 | Wat is er mis? | 8 | deel 2 | vier fouten in het bericht van Kobe (rij 1 is ingevuld) |
 | 4 | Jouw bericht | 15 | deel 3 | het bericht van Lien als voorbeeld; eigen bericht in het venster van de Speelboom-app |
 | 5 | Voor elke ouder | 7 | deel 4 | vertalingen lezen, zin in eenvoudige taal, twee pictogrammen, *Kijk na* |
@@ -186,7 +186,7 @@ als privéreactie. In de AI-hulp zie je wie een gesprek begon (niet wat gevraagd
 
 - **Deel 1** (4 punten): b **bellen** (de ouder moet meteen iets doen; een bericht wordt misschien te laat
   gelezen) · c **gesprek** bij het afhalen (bellen mag ook): gevoelig, de ouder moet je kunnen horen en zien en iets
-  kunnen vragen · d **app**: een korte, praktische vraag, antwoord in de app · e **app van De Speelboom**: als
+  kunnen vragen · d **Speelboom-app**: een korte, praktische vraag, antwoord met een berichtje · e **Speelboom-app**: als
   stagiair geef je je eigen gsm-nummer niet; berichten gaan via de opvang.
 - **Deel 2** (2 punten), zes mogelijke fouten (vier zijn genoeg): hoofdletters en *!!!* (ingevuld) · geen titel en
   geen naam: de ouders weten niet waarover het gaat en wie het stuurt · negatief (*anders zijn de kleren vuil en da
@@ -210,7 +210,7 @@ hoofdletters/chattaal/dialect/emoji en geen ander kind 2 · deel 4: 2 (`lesvoorb
 
 ### Essentiële fouten — geef hier altijd feedback op
 
-- Bij koorts een bericht in de app in plaats van bellen.
+- Bij koorts een berichtje in de Speelboom-app in plaats van bellen.
 - Andere kinderen bij naam in een bericht aan alle ouders.
 - Geen dag of geen uur.
 - Hoofdletters, chattaal of emoji's.
