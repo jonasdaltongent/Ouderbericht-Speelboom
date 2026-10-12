@@ -24,7 +24,7 @@
 W08 - Les 04 - MW - Berichten aan ouders/
 ├── index.html              de lespagina: startpagina in beelden · route · één stap · checklist (6 stappen, 17 taken)
 ├── presentatie.html        10 dia's: de RESERVE (zie hieronder); dia 1 is de vaste startdia
-├── css/style.css           lespagina (les 3, met .app, .vert, .pict-rij, .kijkna voor deze les)
+├── css/style.css           lespagina (les 3, met .app, .info, .vert-blok, .pict-rij, .kijkna voor deze les)
 ├── css/slides.css          dia's
 ├── js/script.js, js/slides.js   (script.js heeft de knop Kijk na)
 ├── assets/                 logo's De Speelboom en GO! Dalton Gent, lettertypes (OFL), mascotte, stapjes (22 beelden)
@@ -175,7 +175,7 @@ Er is geen les in het lokaal. Dit is wat een leerling thuis doet (50 minuten, vo
 | 2 | Welk kanaal? | 8 | deel 1 | Speelboom-app, bellen of gesprek bij vier situaties, met een reden (rij a is ingevuld) |
 | 3 | Wat is er mis? | 8 | deel 2 | vier fouten in het bericht van Kobe (rij 1 is ingevuld) |
 | 4 | Jouw bericht | 15 | deel 3 | het bericht van Lien als voorbeeld; eigen bericht in het venster van de Speelboom-app |
-| 5 | Voor elke ouder | 7 | deel 4 | vertalingen lezen, zin in eenvoudige taal, twee pictogrammen, *Kijk na* |
+| 5 | Voor elke ouder | 7 | deel 4 | twee fouten van Google Vertalen zoeken in een infokader, de zin opnieuw, *Kijk na*, twee pictogrammen |
 | 6 | Nalezen en inleveren | 7 | deel 5 | criteria aankruisen, slotvraag, **Inleveren** |
 | Extra | Antwoord aan een mama | — | *Extra* | telt niet mee; opnieuw inleveren |
 
@@ -199,8 +199,9 @@ als privéreactie. In de AI-hulp zie je wie een gesprek begon (niet wat gevraagd
   speelbos. We vertrekken om 13.30 uur en zijn om 16.30 uur terug in De Speelboom.* / *Geven jullie laarzen, een
   regenjas en een drinkbus met water mee?* / *De kinderen kijken er al naar uit!* / *Vriendelijke groeten,* /
   *[voornaam en naam], stagiair in De Speelboom*
-- **Deel 4** (2 punten): a *kapoenen* werd *capons*: gecastreerde hanen · *half vijf* werd na het Turks *half
-  vier*: een uur te vroeg. b *Om 16.30 uur kunnen jullie je kind ophalen.* (of: *Vanaf 16.30 uur …*) c twee van A–D
+- **Deel 4** (2 punten): a *kapoenen* → *capons*: gecastreerde hanen in plaats van kinderen · *half vijf* →
+  *half vier* in de terugvertaling: een uur te vroeg (het Turks zelf, *dört buçuk*, klopt: de fout ontstond bij
+  het terugvertalen). b *Om 16.30 uur kunnen jullie je kind ophalen.* (of: *Vanaf 16.30 uur …*) c twee van A–D
   (laars, regenjas, klok, boom); niet E (zwembroek) of F (taart).
 - **Deel 5**, slotvraag: in een bericht zie je geen gezicht en hoor je geen stem; de ouder kan niet meteen iets
   vragen; het komt sneller verkeerd over.
@@ -251,7 +252,8 @@ ondersteunend · `BV2_04.04` voorbereidend · `BV2_07.03` contextueel. De pre-pu
   leerling?
 - Lezen ze het **doel vooraf** (*Zoek vier dingen die …*), en vinden ze er ook vier?
 - Typen ze netjes in de vakken van het venster *Speelboom-app · Nieuw bericht* (in Google Documenten schuift niets)?
-- Begrijpen ze *Kijk na* (stap 5), en zetten ze bij de pictogrammen de juiste letters?
+- Vinden ze in stap 5 de twee fouten zelf (de pagina wijst ze niet meer aan, sinds 13-10-2026), en gebruiken ze
+  *Kijk na* pas na vraag b? Zetten ze bij de pictogrammen de juiste letters?
 - Klopt de tijd: 50 minuten zonder instructie, met stap 4 van 15 minuten? Hadden velen tijd over voor *Extra*?
   Werkt **Inleveren ongedaan maken** voor opnieuw inleveren?
 - **Zijn de dia's nodig?** Blijkt op 26-10 dat veel leerlingen de les niet maakten, geef ze dan in de klas (de dia's

@@ -375,38 +375,58 @@ Stap 5 Werkdocument, deel 4
 
 Voor elke ouder
 
-Niet elke ouder leest goed Nederlands. De Speelboom-app heeft daarom een vertaalknop. Die werkt zoals Google Vertalen. Kijk wat Google Vertalen deed met een zin van Kobe.
+Ouders die weinig Nederlands lezen, gebruiken de vertaalknop van de Speelboom-app. Die werkt zoals Google Vertalen. Onderzoek met een zin van Kobe of dat altijd goed gaat.
 
 Wat moet je doen?
 
-- Zoek in de vertalingen hieronder twee dingen die niet klopten.
+-
+Lees het infokader Proef met Google Vertalen hieronder. Zoek twee fouten die Google Vertalen maakte.
 
 -
-Beantwoord in deel 4 vraag a.
+Lees wat Kobe schreef.
 
 -
-Scroll naar Deel 4. Typ in het vak onder a de twee dingen die misgingen.
+Lees de Engelse zin. Ken je een woord niet? Kijk in de woordenlijst onderaan het kader.
 
 -
-Schrijf in b de zin opnieuw, in eenvoudige taal.
+Lees de terugvertaling: het Turks, opnieuw naar het Nederlands. Staat er nog wat Kobe bedoelde?
 
 -
-Klik in het vak onder b. Schrijf de zin van Kobe opnieuw. Korte woorden, een korte zin, het uur in cijfers en geen dialect.
+Vul in deel 4 de tabel van vraag a in.
 
 -
-Zoek twee pictogrammen die bij jouw bericht passen. Typ in c hun letters.
+Scroll naar Deel 4. Klik in rij 1, onder Kobe schreef. Typ het woord van Kobe dat fout vertaald werd.
 
 -
-Kijk naar de pictogrammen A tot F hieronder. Welke twee horen bij wat je in je bericht schreef?
+Klik ernaast, onder Google Vertalen maakte ervan. Typ wat er in de vertaling staat.
+
+-
+Doe hetzelfde voor de tweede fout, in rij 2.
+
+-
+Schrijf in b de zin van Kobe opnieuw, zodat Google Vertalen geen fouten meer maakt.
+
+-
+Klik in het vak onder b. Schrijf de zin opnieuw. Vervang de woorden uit vraag a. Hou de zin kort.
+
+- Klik onder het infokader op Kijk na. Vergelijk met jouw zin.
+
+-
+Kies twee pictogrammen die bij jouw bericht passen. Typ in c hun letters.
+
+-
+Kijk naar de pictogrammen A tot F onderaan. Welke twee horen bij wat je in je bericht schreef?
 
 -
 Klik in het vak onder c. Typ de twee letters.
 
-- Klik hieronder op Kijk na en vergelijk met jouw zin.
+Vind je maar één fout? Leg de terugvertaling naast de zin van Kobe en vergelijk woord per woord.
 
-Twijfel je over een pictogram? Past het bij iets dat in jouw bericht staat? Dan kies je het.
+Info
+Proef met Google Vertalen
+bij vraag a en b
 
-Zo vertaalde Google Vertalen op 12 oktober 2026
+Zo vertaalde Google Vertalen de zin van Kobe, op 12 oktober 2026.
 
 Kobe schreef
 Amai, da wordt plezant! Tegen half vijf mogen jullie de kapoenen komen oppikken.
@@ -414,17 +434,51 @@ Amai, da wordt plezant! Tegen half vijf mogen jullie de kapoenen komen oppikken.
 Engels
 Wow, that will be fun! You can pick up the capons around half past four.
 
-Een capon is een gecastreerde haan. Kapoenen zijn hier kinderen.
-
 Turks
 Vay, çok eğlenceli olacak! Kaponları dört buçuk civarında alabilirsiniz.
 
-Het Turks, terug vertaald naar het Nederlands
+Terugvertaling: het Turks, opnieuw naar het Nederlands
 Wauw, dit gaat zo leuk worden! Kapoenen kun je rond half vier ophalen.
 
-Half vijf werd half vier: een uur te vroeg.
+Woordenlijst bij de Engelse zin
 
+funleuk, plezant
+
+pick upophalen
+
+caponsgecastreerde hanen
+
+half past fourhalf vijf (16.30 uur)
+
+Klaar met vraag b? Kijk dan na.
+
+Kijk na
+
+Kijk na
+Dezelfde zin, in eenvoudige taal
+bij vraag b
+
+Zo vertaalde Google Vertalen deze zin, op 12 oktober 2026.
+
+In eenvoudige taal
+Om 16.30 uur kunnen jullie je kind ophalen.
+
+Engels
+You can pick up your child at 4:30 PM.
+
+Turks
+Çocuğunuzu saat 16.30'da alabilirsiniz.
+
+Terugvertaling: het Turks, opnieuw naar het Nederlands
+U kunt uw kind om 16.30 uur ophalen.
+
+Alles bleef juist.
+
+Vergelijk met jouw zin. Staat het uur in cijfers? Zijn de woorden en de zin kort? Staat er geen dialect in?
+
+Info
 Pictogrammen
+bij vraag c
 
 A
 
@@ -437,26 +491,6 @@ D
 E
 
 F
-
-Kijk na
-
-Zo vertaalde Google Vertalen op 12 oktober 2026
-
-Een zin in eenvoudige taal
-Om 16.30 uur kunnen jullie je kind ophalen.
-
-Engels
-You can pick up your child at 4:30 PM.
-
-Turks
-Çocuğunuzu saat 16.30'da alabilirsiniz.
-
-Het Turks, terug vertaald naar het Nederlands
-U kunt uw kind om 16.30 uur ophalen.
-
-Het uur bleef juist, en er staan geen kapoenen meer in.
-
-Vergelijk met jouw zin. Staat het uur in cijfers? Zijn de woorden en de zin kort? Staat er geen dialect in?
 
 ======================================================================
 STAP 6 — Nalezen en inleveren
@@ -557,8 +591,8 @@ CHECKLIST (rechts op de lespagina)
 
 5 · Voor elke ouder
 
-[ ] Twee dingen die misgingen (deel 4a)
-[ ] De zin in eenvoudige taal (deel 4b)
+[ ] Twee fouten van Google Vertalen (deel 4a)
+[ ] De zin van Kobe zonder die fouten (deel 4b)
 [ ] Twee pictogrammen (deel 4c)
 
 6 · Inleveren

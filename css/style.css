@@ -22,6 +22,8 @@
 /* Atkinson tekent de nul met een schuine streep (lijkt op Ø). Cijfers daarom uit een systeemlettertype. */
 @font-face { font-family: "Atkinson"; src: local("Segoe UI"), local("SegoeUI"), local("Arial"), local("Helvetica"), local("Roboto"); font-weight: 400; unicode-range: U+0030-0039; }
 @font-face { font-family: "Atkinson"; src: local("Segoe UI Bold"), local("SegoeUI-Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Helvetica Bold"), local("Roboto Bold"); font-weight: 700; unicode-range: U+0030-0039; }
+/* ook schuin (de vertalingen in stap 5: "16.30 uur" mag geen 16.3Ø worden) */
+@font-face { font-family: "Atkinson"; src: local("Segoe UI Italic"), local("SegoeUI-Italic"), local("Arial Italic"), local("Arial-ItalicMT"), local("Helvetica Oblique"), local("Helvetica-Oblique"), local("Roboto Italic"), local("Roboto-Italic"); font-weight: 400; font-style: italic; unicode-range: U+0030-0039; }
 @font-face { font-family: "Montserrat"; src: url("../assets/fonts/montserrat-heavy.woff2") format("woff2"); font-weight: 700 900; font-style: normal; font-display: swap; }
 
 :root {
@@ -570,26 +572,51 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
 .app-nr { display: inline-flex; align-items: center; justify-content: center; width: 1.35rem; height: 1.35rem; margin-right: .4rem; border-radius: 50%; background: var(--navy); color: #fff; font-family: var(--body); font-size: .78rem; font-weight: 700; vertical-align: .05rem; }
 .app-noot { padding: 0 .9rem .7rem; color: #5F6368; font-size: .85rem; }
 
-/* de vertalingen van Google Vertalen */
-.vert { max-width: 640px; margin: 0 0 1rem; }
+/* infokader (13-10-2026, Jonas: de vertalingen moeten "duidelijker een informatiefeel" hebben): wat de
+   leerling leest of gebruikt bij een vraag. De kop zegt bij welke vraag; de kaders staan in de volgorde van
+   de vragen. Kijk na is een groen kader. */
+.info { max-width: 640px; margin: 1.3rem 0 1rem; background: var(--peri-soft); border: 1px solid var(--peri); border-radius: var(--radius-sm); overflow: hidden; }
+.info-kop { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .6rem; background: var(--navy); color: #fff; padding: .5rem .9rem; }
+.info-kop h3 { color: #fff; font-size: 1rem; }
+.info-soort { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; background: rgba(255, 255, 255, .2); border-radius: 999px; padding: .1rem .55rem; }
+.info-bij { margin-left: auto; font-size: .85rem; font-weight: 700; color: var(--navy-deep); background: #fff; border-radius: 999px; padding: .05rem .65rem; }
+.info-body { padding: .85rem .9rem .9rem; }
+.info-uitleg { color: var(--muted); font-size: .93rem; margin-bottom: .6rem; }
+.info.ok { background: var(--ok-soft); border-color: #B9DFCB; }
+.info.ok .info-kop { background: var(--ok); }
+.info.ok .info-bij { color: var(--ok); }
+
+/* een kleine kop boven een tekening (stap 6: Hier lever je in) */
 .vert-kop { font-size: .95rem; margin: 0 0 .5rem; color: var(--navy-deep); }
-.vert-blok { margin: 0 0 .6rem; padding: .6rem .9rem; border-left: 4px solid var(--peri); background: #FAFAFD; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+
+/* de vertalingen van Google Vertalen, in een infokader */
+.vert-blok { margin: 0 0 .6rem; padding: .6rem .9rem; border-left: 4px solid var(--peri); background: #fff; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
 .vert-blok.nl { border-left-color: var(--navy); }
 .vert-taal { display: block; font-size: .78rem; font-weight: 700; color: var(--navy-deep); margin-bottom: .15rem; }
 .vert-zin { margin: 0; font-style: italic; }
-.vert-klein { margin: .15rem 0 0; font-size: .85rem; color: var(--muted); }
-.vert-noot { margin: .35rem 0 0; font-weight: 700; color: var(--warn); }
+.vert-noot { margin: .35rem 0 0; font-weight: 700; color: var(--ok); }
+.woorden { margin-top: .8rem; padding-top: .7rem; border-top: 1px dashed var(--peri); }
+.woorden-kop { font-size: .85rem; font-weight: 700; color: var(--navy-deep); margin-bottom: .3rem; }
+.woorden-lijst { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .2rem 1.2rem; margin: 0; font-size: .93rem; }
+.woorden-lijst div { display: flex; flex-wrap: wrap; gap: 0 .4rem; }
+.woorden-lijst dt { font-weight: 700; font-style: italic; }
+.woorden-lijst dd { margin: 0; }
+.woorden-lijst dd::before { content: "= "; color: var(--muted); }
+@media (max-width: 599px) { .woorden-lijst { grid-template-columns: 1fr; } }
 .kijkna { margin: 0 0 1rem; }
-.kijkna-inhoud { max-width: 640px; margin-top: .7rem; }
-.kijkna-inhoud .vert-noot { color: var(--ok); }
+.kijkna-lead { margin: 0 0 .45rem; }
+.kijkna-inhoud { margin-top: .7rem; }
+.kijkna-vraag { margin: .7rem 0 0; }
 
 /* pictogrammen A tot F: eigen tekeningen */
-.pict-rij { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .6rem; max-width: 640px; margin: 0 0 1.2rem; }
+.pict-rij { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .6rem; }
 .pict { text-align: center; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-sm); padding: .5rem .2rem .4rem; }
 .pict-svg { display: block; width: 56px; height: 56px; margin: 0 auto .15rem; }
 .pict-letter { display: block; font-family: var(--head); font-weight: 800; font-size: 1.15rem; color: var(--navy-deep); }
-.vert-kop + .pict-rij { margin-top: .4rem; }
 @media (max-width: 899px) { .pict-rij { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* een uitleg onder een handeling zonder stapjes (stap 3): gewone letters, op een eigen regel */
+.doe-tekst .sub { display: block; font-weight: 400; color: var(--muted); font-size: .93rem; margin-top: .2rem; }
 
 /* het kanaal: Aan, Cc, Bcc-raster, hier met app, bellen en gesprek */
 .ccb.kanaal .ccb-vak { font-size: .93rem; }

@@ -69,9 +69,14 @@ def ouderbericht():
 
     # ---- Deel 4
     deel(doc, 4, "Voor elke ouder", nieuwe_pagina=True)
-    vraag(doc, "a.  Wat ging er mis in de vertaling? Noem twee dingen.")
-    antwoordvak(doc, 1.8)
-    vraag(doc, "b.  Schrijf deze zin van Kobe opnieuw, in eenvoudige taal.")
+    # a: de leerling zoekt de fouten zelf in het infokader op de lespagina (Jonas, 13-10-2026: geef de
+    # antwoorden niet zelf). Geen ingevulde rij: er zijn maar twee fouten.
+    vraag(doc, "a.  Welke twee fouten maakte Google Vertalen in de zin van Kobe?")
+    tabel(doc, ["", "Kobe schreef", "Google Vertalen maakte ervan"], [
+        ("1", "", ""),
+        ("2", "", ""),
+    ], [0.8, 6.2, BREEDTE - 0.8 - 6.2], invul=(1, 2), rijhoogte=1.0)
+    vraag(doc, "b.  Schrijf de zin van Kobe opnieuw, zodat Google Vertalen geen fouten meer maakt.")
     tekst(doc, "Tegen half vijf mogen jullie de kapoenen komen oppikken.", cursief=True, na=2)
     antwoordvak(doc, 1.4)
     vraag(doc, "c.  Welke twee pictogrammen zet je bij jouw bericht? Typ de letters.")
@@ -87,7 +92,7 @@ def ouderbericht():
         ("Deel 3: mijn bericht is kort, positief en beleefd: een aanspreking, overal *jullie*, een groet, "
          "mijn naam en *stagiair*.", 4),
         ("Deel 3: geen hoofdletters, chattaal, dialect of emoji's, en geen andere kinderen bij naam.", 2),
-        ("Deel 4: wat er misging, de zin in eenvoudige taal en twee passende pictogrammen.", 2),
+        ("Deel 4: de twee fouten van Google Vertalen, de zin zonder die fouten en twee passende pictogrammen.", 2),
     ])
     vraag(doc, "Waarom vertel je moeilijk nieuws liever niet met een berichtje in de Speelboom-app?")
     antwoordvak(doc, 1.8)

@@ -137,13 +137,15 @@ def main(leeg):
     kop4, kop5 = tekst(p, "Deel 4"), tekst(p, "Deel 5")
     slot = tekst(p, "Waarom vertel je")
     vakken = vlakken(p, VAK)
-    va, vb, vc = [v for v in vakken if kop4.y1 < v.y0 < kop5.y0]
+    # vraag a is een tabel (twee rijen van twee vakken: Kobe schreef · Google Vertalen maakte ervan), dan b en c
+    a1_kobe, a1_vert, a2_kobe, a2_vert, vb, vc = [v for v in vakken if kop4.y1 < v.y0 < kop5.y0]
     vinkjes = [v for v in vakken if kop5.y1 < v.y0 < slot.y0]
     antw_slot = [v for v in vakken if v.y0 > slot.y1][0]
-    links, rechts = va.x0, va.x1
-    qa, qb, qc = tekst(p, "Wat ging er mis"), tekst(p, "Schrijf deze zin"), tekst(p, "Welke twee pictogrammen")
-    bewaar(p, "s5-deel4", rand(fitz.Rect(links, qa.y0, rechts, va.y1), 8, 10),
-           [fitz.Rect(links, qa.y0 - 2, rechts, va.y1)])
+    links, rechts = vb.x0, vb.x1
+    qa, qb, qc = tekst(p, "Welke twee fouten"), tekst(p, "Schrijf de zin van Kobe"), tekst(p, "Welke twee pictogrammen")
+    vraag_a = rand(fitz.Rect(links, qa.y0, rechts, a2_vert.y1), 8, 10)
+    bewaar(p, "s5-deel4", vraag_a, [a1_kobe])
+    bewaar(p, "s5-vertaling", vraag_a, [a1_vert])
     bewaar(p, "s5-zin", rand(fitz.Rect(links, qb.y0, rechts, vb.y1), 8, 10),
            [fitz.Rect(links, qb.y0 - 2, rechts, vb.y1)])
     bewaar(p, "s5-pict", rand(fitz.Rect(links, qc.y0, rechts, vc.y1), 8, 10),

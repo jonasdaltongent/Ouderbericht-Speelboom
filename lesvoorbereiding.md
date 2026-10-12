@@ -104,7 +104,7 @@ Letterlijk uit `Leerplannen/Leerplannen_2de_graad_TOINFO_MW_dubbele_finaliteit.m
 | kiest bij een situatie in de opvang tussen een berichtje in de Speelboom-app, bellen en een gesprek, en zegt waarom | toepassen | conceptueel |
 | benoemt in een zwak app-bericht wat bij ouders verkeerd overkomt (hoofdletters, emoji, dialect, negatief, een ander kind bij naam) | analyseren | conceptueel |
 | schrijft een kort, positief en beleefd bericht aan alle ouders van een groep, met wat, wanneer en wat ze meegeven | toepassen | procedureel |
-| herschrijft een zin in eenvoudige taal en legt uit waarom een vertaalmachine die beter vertaalt | begrijpen / toepassen | conceptueel |
+| zoekt in een vertaling welke woorden fout vertaald werden, en herschrijft de zin zo dat een vertaalmachine hem juist vertaalt | analyseren / toepassen | conceptueel |
 | leest het eigen bericht na met de criteria | evalueren (met criteria) | metacognitief |
 
 ## 8. Succescriteria (leerlingtaal)
@@ -181,10 +181,11 @@ label; zonder knop *Verzenden*; op een eigen bladzijde. (Werkt het goed, dan hoo
 - **Deel 3 — Jouw bericht** (`appvenster`, eigen bladzijde): **Aan** · **Titel** · **Bericht** met de vijf
   grijze labels ① *Aanspreking* ② *Wat en wanneer* ③ *Wat geven de ouders mee?* ④ *Iets positiefs*
   ⑤ *Groet, je naam en wie je bent*.
-- **Deel 4 — Voor elke ouder.** a *Wat ging er mis in de vertaling? Noem twee dingen.* · b *Schrijf de tweede
-  zin van Kobe opnieuw, in eenvoudige taal.* · c *Welke twee pictogrammen zet je bij jouw bericht? Typ de
-  letters.* (De zinnen en de pictogrammen A–F staan op de lespagina; in de tabel mag Kobes tweede zin als kort
-  citaat staan.)
+- **Deel 4 — Voor elke ouder.** a *Welke twee fouten maakte Google Vertalen in de zin van Kobe?*, als tabel
+  *Kobe schreef · Google Vertalen maakte ervan* met twee lege rijen (geen ingevulde rij: er zijn maar twee
+  fouten) · b *Schrijf de zin van Kobe opnieuw, zodat Google Vertalen geen fouten meer maakt.* (Kobes tweede zin
+  staat erbij als kort citaat) · c *Welke twee pictogrammen zet je bij jouw bericht? Typ de letters.* (De
+  vertalingen en de pictogrammen A–F staan op de lespagina, elk in een infokader.)
 - **Deel 5 — Nalezen.** De criteria van § 22 als `controletabel` (de leerling typt een x, de leraar zet de
   punten), en de slotvraag: *Waarom vertel je moeilijk nieuws liever niet met een berichtje in de Speelboom-app?*
 - **Extra — niet verplicht**: *Een mama antwoordt met een berichtje in de Speelboom-app: "Mijn zoon heeft geen laarzen. Mag hij met
@@ -208,8 +209,9 @@ label; zonder knop *Verzenden*; op een eigen bladzijde. (Werkt het goed, dan hoo
   13.30 uur en zijn om 16.30 uur terug in De Speelboom.* / *Geven jullie laarzen, een regenjas en een drinkbus
   met water mee?* / *De kinderen kijken er al naar uit!* / *Vriendelijke groeten,* / *[voornaam en naam],
   stagiair in De Speelboom*
-- Deel 4: a *kapoenen* werd *capons*: gecastreerde hanen · *half vijf* werd na het Turks *half vier*: een uur te
-  vroeg. b *Om 16.30 uur kunnen jullie je kind ophalen.* (of: *Vanaf 16.30 uur …*) c twee van A–D (laars,
+- Deel 4: a *kapoenen* → *capons* (Engels; *Kaponları* in het Turks): gecastreerde hanen in plaats van kinderen ·
+  *half vijf* → *half vier* in de terugvertaling: een uur te vroeg. Het Turks zelf (*dört buçuk*, 4.30 uur) klopt:
+  de fout ontstond bij het terugvertalen. b *Om 16.30 uur kunnen jullie je kind ophalen.* (of: *Vanaf 16.30 uur …*) c twee van A–D (laars,
   regenjas, klok, boom); niet E (zwembroek) of F (taart).
 - Deel 5, slotvraag: in een bericht zie je geen gezicht en hoor je geen stem; de ouder kan niet meteen iets
   vragen; het komt sneller verkeerd over.
@@ -250,7 +252,7 @@ opvang komen.* ③ *Geef een knuffel mee: we lezen samen een verhaal.* ④ *De k
 | 2 | Welk kanaal? | 8 | deel 1 | kaartje *Speelboom-app · bellen · gesprek · niet je eigen gsm*, met rij a als voorbeeld |
 | 3 | Wat is er mis? | 8 | deel 2 | het bericht van Kobe in een tekening van de Speelboom-app; leesdoel: *Zoek vier dingen die bij een ouder verkeerd overkomen* |
 | 4 | Jouw bericht | 15 | deel 3 | het bericht van Lien met de vijf delen; het bouwplan; *jullie*, het uur in cijfers |
-| 5 | Voor elke ouder | 7 | deel 4 | de vertalingen van Kobes zinnen (§ *Bronnenonderzoek*, proef met Google Vertalen); de pictogrammen A–F; na het invullen een knop *Kijk na* die de vertaling van de eenvoudige zin toont |
+| 5 | Voor elke ouder | 7 | deel 4 | infokader *Proef met Google Vertalen* (bij vraag a en b; § *Bronnenonderzoek*) met een woordenlijst bij de Engelse zin en zonder de fouten aan te wijzen; leesdoel: *Zoek twee fouten die Google Vertalen maakte*; de knop *Kijk na* (bij vraag b) met de vertaling van de eenvoudige zin; infokader *Pictogrammen* A–F (bij vraag c) |
 | 6 | Nalezen en inleveren | 7 | deel 5 | de criteria; de tekening van de opdracht met **Inleveren** in een rood kader; *Niet klaar?* (afwijking 4) |
 | Extra | Antwoord aan een mama | — | *Extra* | hoe je opnieuw inlevert; telt niet mee |
 
@@ -290,7 +292,7 @@ Op 20 punten, beoordeeld op het werkdocument (vooral deel 3, het eigen bericht):
 | Deel 3: wat, welke dag en hoe laat (in cijfers), en wat de ouders meegeven | 4 |
 | Deel 3: kort, positief en beleefd: aanspreking, groet, je naam en *stagiair*; overal *jullie* | 4 |
 | Deel 3: geen hoofdletters, chattaal, dialect of emoji's, en geen andere kinderen bij naam | 2 |
-| Deel 4: wat er misging, de zin in eenvoudige taal en twee passende pictogrammen | 2 |
+| Deel 4: de twee fouten van Google Vertalen, de zin zonder die fouten en twee passende pictogrammen | 2 |
 
 **Essentiële fouten** (altijd feedback): bij koorts een berichtje in de Speelboom-app in plaats van bellen · andere kinderen
 bij naam in een bericht aan alle ouders · geen dag of geen uur · hoofdletters, chattaal of emoji's · geen naam
@@ -388,8 +390,10 @@ Ook geprobeerd: *Woensdag trekken de Eekhoorns de bossen in, dus botten aan en e
 the Squirrels will head into the woods, so wear boots and a raincoat!* (de groepsnaam werd *the Squirrels*; *botten*
 werd goed begrepen). Engels → terug naar het Nederlands: *Wauw, dat wordt leuk! Rond half vijf kunt u de kapoenen
 ophalen.* Een terugvertaling vindt dus niet elke fout: *kapoenen* kwam terug als *kapoenen*. Op de lespagina:
-Kobes zin, de Engelse vertaling (*capons* uitgelegd) en de Turkse terugvertaling (*half vier*); bij *Kijk na* de
-eenvoudige zin met haar Engelse vertaling en Turkse terugvertaling. Een vertaalmachine verandert: de pagina zegt
+Kobes zin, de Engelse en de Turkse vertaling en de Turkse terugvertaling, met een woordenlijst bij de Engelse zin
+(*fun*, *pick up*, *capons*, *half past four*); de pagina wijst de fouten niet zelf aan (Jonas, 13-10-2026: "Hier
+hebben de leerlingen niets aan"). Bij *Kijk na* de eenvoudige zin met haar Engelse en Turkse vertaling en Turkse
+terugvertaling. Een vertaalmachine verandert: de pagina zegt
 "zo vertaalde Google Vertalen op 12 oktober 2026".
 
 **Breder gezocht** met `zoek_bronnen.py` op: `"positief formuleren"`, `"positive language"`,
