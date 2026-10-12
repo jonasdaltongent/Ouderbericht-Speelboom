@@ -400,5 +400,5 @@ Integratie en Inburgering, Team Taaladvies (zie het vakinhoudbestand, § *Bronne
 **Tegenstrijdigheden.** Team Taaladvies raadt in formele zakelijke berichten en bij een eerste contact **u** aan;
 Opgroeien en Klasse spreken ouders aan met **je**, en de AgII-tips verkiezen *Registreer je* boven *U dient zich
 te registreren*. De les kiest: **u** aan iemand die je nog niet kent (les 3), **jullie** in de app van De
-Speelboom, nooit gemengd. Jonas beslist (vakinhoud, *Nog na te kijken* 6). Een ziek kind → bellen staat niet
+Speelboom, nooit gemengd. Jonas koos *jullie* (12-10-2026: "Jullie is goed"). Een ziek kind → bellen staat niet
 letterlijk in een bron (*Nog na te kijken* 5).

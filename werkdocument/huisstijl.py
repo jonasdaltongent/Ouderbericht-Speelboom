@@ -4,7 +4,7 @@ huisstijl.py — de bouwstenen van elk werkdocument (GO! Dalton Gent, Toegepaste
 Kopieer dit bestand ongewijzigd naar `werkdocument/` van een lesmap (uit `_sjablonen/lespakket/werkdocument/`),
 met `go-dalton-gent.png` erbij. `maak_werkdocumenten.py` van de les doet `from huisstijl import *`.
 Verbeter je iets, doe het dan hier in het sjabloon en kopieer het opnieuw.
-(MW les 4 voegde appvenster toe, naar mailvenster; nog niet in het sjabloon: voorstel in het verslag van de lesbouwer.)
+(Sinds 12-10-2026 ook appvenster, uit MW les 4: een bericht in een ouderapp, naar mailvenster.)
 
 Waarom zo (Jonas, 12-10-2026, na zijn eigen opkuis van Stagemail):
  - Alles waar de leerling typt, is een **vak**: een tabelcel met een lichtblauwe achtergrond. Typen in
