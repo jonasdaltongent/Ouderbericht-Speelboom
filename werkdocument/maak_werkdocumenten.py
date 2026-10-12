@@ -54,7 +54,7 @@ def ouderbericht():
     # ---- Deel 2
     deel(doc, 2, "Wat is er mis met het bericht van Kobe?", nieuwe_pagina=True)
     tabel(doc, ["", "Wat is er mis?", "Hoe kan het beter?"], [
-        ("1", "Alles in hoofdletters en drie uitroeptekens: dat leest als roepen.", "Begin met *Beste ouders,*."),
+        ("1", "Alles in hoofdletters en drie uitroeptekens: dat leest als roepen.", "Begin met een aanspreking: *Beste ouders,*"),
         ("2", "", ""),
         ("3", "", ""),
         ("4", "", ""),
@@ -83,7 +83,7 @@ def ouderbericht():
         ("Deel 2: ik vond vier fouten en schreef erbij hoe het beter kan.", 2),
         ("Deel 3: bij Aan staat *Alle ouders van De Eekhoorns*, en ik schreef een duidelijke titel.", 2),
         ("Deel 3: mijn bericht zegt wat, welke dag en hoe laat (in cijfers), en wat de ouders meegeven.", 4),
-        ("Deel 3: mijn bericht is kort, positief en beleefd: *Beste ouders,*, overal *jullie*, een groet, "
+        ("Deel 3: mijn bericht is kort, positief en beleefd: een aanspreking, overal *jullie*, een groet, "
          "mijn naam en *stagiair*.", 4),
         ("Deel 3: geen hoofdletters, chattaal, dialect of emoji's, en geen andere kinderen bij naam.", 2),
         ("Deel 4: wat er misging, de zin in eenvoudige taal en twee passende pictogrammen.", 2),

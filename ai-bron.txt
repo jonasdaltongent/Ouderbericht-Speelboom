@@ -44,7 +44,7 @@ Vast? Probeer het in deze volgorde
 
 - Klik in de stap op Toon stapjes
 
-- Je leraar: typ onder Privéreacties je vraag en klik op Posten
+- Je leraar: typ onder Privéreacties je vraag en klik op Posten. Je leraar leest het later.
 
 Kom je echt niet verder? Ga naar de volgende stap. Lever op het einde toch in.
 
@@ -375,7 +375,7 @@ Stap 5 Werkdocument, deel 4
 
 Voor elke ouder
 
-Niet elke ouder leest goed Nederlands. De Speelboom-app heeft een vertaalknop. Kijk wat die deed met een zin van Kobe.
+Niet elke ouder leest goed Nederlands. De Speelboom-app heeft daarom een vertaalknop. Die werkt zoals Google Vertalen. Kijk wat Google Vertalen deed met een zin van Kobe.
 
 Wat moet je doen?
 
