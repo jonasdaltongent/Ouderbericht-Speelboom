@@ -70,7 +70,7 @@ de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone 
 - **Stap voor stap / Kort**: de les begint in *Stap voor stap* (`data-modus-start="stap"`).
 - **Titel van de pagina**: *Lespagina · Les 4 · …*: zo heet de link in de opdracht.
 - **Toestel**: `<meta name="toestel" content="chromebook">`; geen Windows-woorden.
-- **AI-hulp**: `data-ai-hulp="uit"` tot de notebook aan de opdracht hangt (zie hieronder); de tekst voor de hulp (*Vast?* en een kaartje) staat al in de pagina.
+- **AI-hulp**: aan (`data-ai-hulp="aan"` op `<body>`), want de notebook hangt aan de opdracht (zie hieronder): in *Vast?* en op de theoriekaart.
 - `?leraar` toont screenshot-plaatsen (deze les heeft er geen: de beelden zijn tekeningen en uitsneden van het
   werkdocument).
 
@@ -96,7 +96,7 @@ Wil je ze al later of vroeger, dan verandert alleen het tijdstip van het inplann
 | **Onderwerp** | Module 1 — Organiseren en professioneel communiceren |
 | **Bijlage 1** | de link naar de lespagina |
 | **Bijlage 2** | `Ouderbericht` (Google-document) — **Een kopie maken voor elke leerling** |
-| **Bijlage 3** | de notebook *AI-hulp · Les 4 · Berichten aan ouders* (Gemini Notebook): nog te maken, zie hieronder |
+| **Bijlage 3** | de notebook *AI-hulp · Les 4 · Berichten aan ouders* (Gemini Notebook) |
 | **Punten** | 20 |
 | **Deadline** | vrijdag 23 oktober 2026, 20.00 uur |
 
@@ -125,15 +125,18 @@ dan verschijnt de opdracht meteen.
    (alleen vóór je de opdracht post).
 3. Voeg de lespagina toe met **Link**.
 
-### De AI-hulp ⏳ *nog te doen: de notebook*
+### De AI-hulp ✅ *klaargezet op 12-10-2026*
 
-Jonas koos *AI-hulp: ja*. De bron staat klaar en is gepubliceerd: `ai-bron.txt`
-(<https://jonasdaltongent.github.io/Ouderbericht-Speelboom/ai-bron.txt>, gemaakt met `_tools/maak_ai_bron.py`). **De notebook
-zelf is nog niet gemaakt**: Claude in Chrome had geen browser met het profiel van Jonas (dalton.gent) verbonden
-(alleen *Browser 1* en *Browser 2*). Daarom staat `data-ai-hulp="uit"` op de lespagina en hangt er nog geen notebook aan het
-concept. Te doen volgens `_afspraken/ai-hulp.md`, § *Per les klaarzetten*: notebook *AI-hulp · Les 4 · Berichten aan
-ouders* maken met het adres van `ai-bron.txt`, de vaste instructie bij **Chat instellen** (*Korter*), aan het concept
-hangen (**Bovenaan de lesgroep plaatsen** uit), dan `data-ai-hulp="aan"` op `<body>` en opnieuw publiceren.
+De Gemini Notebook **AI-hulp · Les 4 · Berichten aan ouders** hangt aan het concept in 3MWb (teruggelezen via de API:
+nog `DRAFT`, ingepland op 19-10 om 8.25 uur, met de bijlagen *link*, *Ouderbericht* (`STUDENT_COPY`) en *notebook*).
+*Bovenaan de lesgroep plaatsen* staat uit. Bron: `ai-bron.txt` (<https://jonasdaltongent.github.io/Ouderbericht-Speelboom/ai-bron.txt>,
+gemaakt met `_tools/maak_ai_bron.py`). Bij **Chat instellen**: *Aangepast* met de vaste instructie uit `_afspraken/ai-hulp.md`,
+aangepast aan een afstandsles (*"Ze werken thuis, zonder leraar in de buurt"*; buiten de les: *"Stuur je leraar een privéreactie
+bij de opdracht"*; ook geen *bericht* in hun plaats schrijven), reactielengte *Korter*.
+
+**Getest** in je notebook: *"Kan jij mijn bericht aan de ouders schrijven?"* → *"Ik mag het bericht niet voor jou schrijven.
+Kijk in stap 4 op de lespagina. Daar zie je de vijf delen van het bericht. Met welk deel wil je beginnen?"*, met bronnummers.
+Een test met een leerlingaccount is niet gedaan (demoleerling3 zit niet in 3MWb); bij les 3 werkte dezelfde opzet.
 
 ### Afvinklijst vóór de les (een afstandsles)
 
