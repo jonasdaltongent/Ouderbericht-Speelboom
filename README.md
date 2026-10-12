@@ -70,7 +70,7 @@ de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone 
 - **Stap voor stap / Kort**: de les begint in *Stap voor stap* (`data-modus-start="stap"`).
 - **Titel van de pagina**: *Lespagina · Les 4 · …*: zo heet de link in de opdracht.
 - **Toestel**: `<meta name="toestel" content="chromebook">`; geen Windows-woorden.
-- **AI-hulp**: `data-ai-hulp="aan"` zodra de notebook aan de opdracht hangt (zie hieronder).
+- **AI-hulp**: `data-ai-hulp="uit"` tot de notebook aan de opdracht hangt (zie hieronder); de tekst voor de hulp (*Vast?* en een kaartje) staat al in de pagina.
 - `?leraar` toont screenshot-plaatsen (deze les heeft er geen: de beelden zijn tekeningen en uitsneden van het
   werkdocument).
 
@@ -96,7 +96,7 @@ Wil je ze al later of vroeger, dan verandert alleen het tijdstip van het inplann
 | **Onderwerp** | Module 1 — Organiseren en professioneel communiceren |
 | **Bijlage 1** | de link naar de lespagina |
 | **Bijlage 2** | `Ouderbericht` (Google-document) — **Een kopie maken voor elke leerling** |
-| **Bijlage 3** | de notebook *AI-hulp · Les 4 · Berichten aan ouders* (Gemini Notebook) |
+| **Bijlage 3** | de notebook *AI-hulp · Les 4 · Berichten aan ouders* (Gemini Notebook): nog te maken, zie hieronder |
 | **Punten** | 20 |
 | **Deadline** | vrijdag 23 oktober 2026, 20.00 uur |
 
@@ -125,16 +125,21 @@ dan verschijnt de opdracht meteen.
    (alleen vóór je de opdracht post).
 3. Voeg de lespagina toe met **Link**.
 
-### De AI-hulp
+### De AI-hulp ⏳ *nog te doen: de notebook*
 
-Zie § AI-hulp onderaan deze stap: de notebook, de bron (`ai-bron.txt`) en de instelling staan volgens
-`_afspraken/ai-hulp.md`. (Wordt ingevuld na het klaarzetten.)
+Jonas koos *AI-hulp: ja*. De bron staat klaar en is gepubliceerd: `ai-bron.txt`
+(<https://jonasdaltongent.github.io/Ouderbericht-Speelboom/ai-bron.txt>, gemaakt met `_tools/maak_ai_bron.py`). **De notebook
+zelf is nog niet gemaakt**: Claude in Chrome had geen browser met het profiel van Jonas (dalton.gent) verbonden
+(alleen *Browser 1* en *Browser 2*). Daarom staat `data-ai-hulp="uit"` op de lespagina en hangt er nog geen notebook aan het
+concept. Te doen volgens `_afspraken/ai-hulp.md`, § *Per les klaarzetten*: notebook *AI-hulp · Les 4 · Berichten aan
+ouders* maken met het adres van `ai-bron.txt`, de vaste instructie bij **Chat instellen** (*Korter*), aan het concept
+hangen (**Bovenaan de lesgroep plaatsen** uit), dan `data-ai-hulp="aan"` op `<body>` en opnieuw publiceren.
 
 ### Afvinklijst vóór de les (een afstandsles)
 
 - [ ] De lespagina staat online (HTTP 200) en het adres op dia 9 klopt.
 - [ ] De opdracht staat als **concept** klaar in `3MWb - Informatica` met de lespagina, *Ouderbericht* als **kopie per
-      leerling** en de notebook; het inplannen staat op ma 19-10 om 8.25 uur (teruggelezen: nog `DRAFT`).
+      leerling** en de notebook; het inplannen staat op ma 19-10 om 8.25 uur (teruggelezen 12-10-2026: `DRAFT`, `scheduledTime` 06:25 UTC).
 - [ ] **Geen wachtwoord op het bord** of op een dia: de leerlingen zitten thuis en melden zelf aan.
 - [ ] **Geen demo-kopie** klaar te zetten: er is geen demo (de dia's worden niet getoond).
 - [ ] Je Classroom-meldingen staan aan: de **privéreacties** van leerlingen die vastzitten komen binnen.
