@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="toestel" content="chromebook">
+  <meta name="afstandsles" content="ja">
+  <title>Lespagina · Les 4 · Berichten aan ouders · De Speelboom</title>
+  <link rel="icon" href="assets/logos/lespagina-icon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-storage="speelboom_ouderbericht_v1_" data-modus-start="stap" data-laatste-stap="6" data-ai-hulp="uit">
+
+<!-- Pictogrammen: eenvoudige lijntekeningen, eigen werk. Gebruik: een svg met class "ic" en daarin use met href naar het symbool. -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4 2.5 4H5"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.7 2.7L16 10"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01" stroke-width="3"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5l9.5 17h-19z"/><path d="M12 10v4.5M12 17.5h.01"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 1 1 3.4 2.5c-.6.3-1 .8-1 1.5v.4M12 17h.01"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 14.2a5 5 0 0 1 5 5"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M12 15V3M7 8l5-5 5 5"/><path d="M4 14v6h16v-6"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L12 16.9l-5.2 2.8 1-5.9-4.3-4.1 5.9-.8z"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M11 3l1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9z"/><path d="M18.5 14.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 12V6a1.5 1.5 0 0 1 3 0v5"/><path d="M11 10.5V4.5a1.5 1.5 0 0 1 3 0v6"/><path d="M14 10.5V6a1.5 1.5 0 0 1 3 0v7.5"/><path d="M8 11.5l-1.5-1.5a1.6 1.6 0 0 0-2.3 2.3l3.6 4.2A6.5 6.5 0 0 0 17 13.5"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+</svg>
+
+<div class="teacher-banner">Leraarweergave: de roze kaders tonen waar je een screenshot kan plaatsen. Leerlingen zien die kaders niet.</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html" title="Naar het begin van de les">
+      <img src="assets/speelboom-logo.svg" alt="De Speelboom">
+      <span class="brand-lesson">Les 4 · Berichten aan ouders</span>
+    </a>
+    <span class="topbar-spacer"></span>
+    <img class="dalton-mark" src="assets/dalton-gent-logo.png" alt="GO! Dalton Gent">
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- ============ LINKS: de route ============ -->
+  <nav class="route" aria-label="Stappenplan">
+    <p class="route-title">Stappenplan</p>
+    <button class="nav-btn" type="button" data-step="start"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-flag"/></svg></span><span class="nav-lbl">Start</span></button>
+    <button class="nav-btn" type="button" data-step="theorie"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg></span><span class="nav-lbl">Theoriekaart</span></button>
+
+    <p class="route-group">Kijken en kiezen</p>
+    <button class="nav-btn" type="button" data-step="1"><span class="nav-num"><span class="nav-n">1</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Start</span></button>
+    <button class="nav-btn" type="button" data-step="2"><span class="nav-num"><span class="nav-n">2</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Welk kanaal?</span></button>
+    <button class="nav-btn" type="button" data-step="3"><span class="nav-num"><span class="nav-n">3</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Wat is er mis?</span></button>
+
+    <p class="route-group">Je eigen bericht</p>
+    <button class="nav-btn" type="button" data-step="4"><span class="nav-num"><span class="nav-n">4</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Jouw bericht</span></button>
+    <button class="nav-btn" type="button" data-step="5"><span class="nav-num"><span class="nav-n">5</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Voor elke ouder</span></button>
+    <button class="nav-btn" type="button" data-step="6"><span class="nav-num"><span class="nav-n">6</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Nalezen en inleveren</span></button>
+    <button class="nav-btn extra" type="button" data-step="extra"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-star"/></svg></span><span class="nav-lbl">Extra</span></button>
+  </nav>
+
+  <!-- ============ MIDDEN: één stap tegelijk ============ -->
+  <main id="main">
+
+    <section class="pane" id="pane-start" aria-labelledby="h-start">
+      <article class="card">
+        <header class="card-head met-mascotte">
+          <div>
+            <div class="tags"><span class="tag tag-where">Toegepaste Informatica · les 4</span></div>
+            <h1 id="h-start">Berichten aan ouders</h1>
+          </div>
+          <img class="mascotte-kop" src="assets/mascotte/dalton_welkom.webp" alt="" width="120" height="120">
+        </header>
+        <div class="card-body">
+          <p class="intro">Je loopt binnenkort stage in De Speelboom, in groep De Eekhoorns. Vandaag schrijf je een bericht aan alle ouders. Je werkt thuis: alles wat je nodig hebt, staat hier.</p>
+
+          <h2 class="sec">Wat heb je nodig?</h2>
+          <ol class="nodig">
+            <li class="nodig-item">
+              <div class="mock mock-opdracht" aria-hidden="true">
+                <div class="mo-midden">
+                  <div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Les 4 — Berichten aan ouders</div>
+                  <div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina</span></div>
+                  <div class="mo-chip ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp</span></div>
+                </div>
+                <div class="mo-werk">
+                  <div class="mo-werk-kop">Jouw werk</div>
+                  <div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>Ouderbericht</span></div>
+                  <div class="mo-knop">Inleveren</div>
+                </div>
+              </div>
+              <p class="nodig-naam"><img class="logo" src="assets/logos/classroom.svg" alt="">De opdracht in Google Classroom</p>
+              <p class="nodig-uitleg">Hier begin je. Hier lever je in.</p>
+            </li>
+            <li class="nodig-item">
+              <div class="mock mock-lespagina" aria-hidden="true">
+                <div class="ml-balk"></div>
+                <div class="ml-midden">
+                  <div class="ml-route"><span></span><span></span><span></span><span></span></div>
+                  <div class="ml-stap"><span class="ml-tag">Stap 1</span><span class="ml-lijn"></span><span class="ml-lijn kort"></span><span class="ml-lijn"></span></div>
+                </div>
+                <div class="ml-hier">Je bent hier</div>
+              </div>
+              <p class="nodig-naam"><img class="logo" src="assets/logos/lespagina.webp" alt="">Deze lespagina</p>
+              <p class="nodig-uitleg">Hier lees je wat je moet doen, stap voor stap.</p>
+            </li>
+            <li class="nodig-item inleveren">
+              <div class="mock mock-werkdocument" aria-hidden="true">
+                <div class="mw-balk"><img class="logo" src="assets/logos/docs.svg" alt="">Ouderbericht</div>
+                <div class="mw-blad">
+                  <div class="mw-venster">
+                    <div class="mw-kop">Speelboom-app · Nieuw bericht</div>
+                    <div class="mw-veld">Aan</div>
+                    <div class="mw-veld">Titel</div>
+                    <div class="mw-tekst"><span></span><span></span><span class="kort"></span></div>
+                  </div>
+                </div>
+              </div>
+              <p class="nodig-naam"><img class="logo" src="assets/logos/docs.svg" alt="">Je werkdocument Ouderbericht</p>
+              <p class="nodig-uitleg">Hier schrijf je je bericht. Dit lever je in.</p>
+            </li>
+          </ol>
+          <p class="nodig-noot">Het venster in je werkdocument lijkt op de Speelboom-app. Je verstuurt niets echt.</p>
+
+          <h2 class="sec">Na deze les kan je</h2>
+          <ul class="doelen">
+            <li>kiezen of je een bericht stuurt, belt of het vertelt bij het afhalen;</li>
+            <li>een kort, positief en beleefd bericht aan alle ouders schrijven;</li>
+            <li>zo schrijven dat ook een ouder die weinig Nederlands leest, je bericht begrijpt.</li>
+          </ul>
+
+          <h2 class="sec">Vast? Probeer het in deze volgorde</h2>
+          <ol class="vast">
+            <li><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg><span>Klik in de stap op <em>Toon stapjes</em></span></li>
+            <li class="ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp in de opdracht</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-hand"/></svg><span>Je leraar: typ onder <span class="ui">Privéreacties</span> je vraag en klik op <span class="ui">Posten</span></span></li>
+          </ol>
+          <p class="nodig-noot">Kom je echt niet verder? Ga naar de volgende stap. Lever op het einde toch in.</p>
+
+          <p class="start-cta"><button class="btn btn-primary" type="button" data-goto="1">Start met stap 1 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="pane" id="pane-theorie" aria-labelledby="h-theorie">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-where">Spiekbriefje</span></div>
+          <h2 id="h-theorie">Theoriekaart</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Alles op één plek. Kom hier terug als je iets niet meer weet.</p>
+          <div class="t-grid">
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>Welk kanaal?</h3>
+              <table class="t-rows">
+                <tr><th>App</th><td>praktisch nieuws voor alle ouders, of een korte vraag van een ouder</td></tr>
+                <tr><th>Bellen</th><td>de ouder moet meteen iets doen of beslissen</td></tr>
+                <tr><th>Gesprek</th><td>moeilijk of gevoelig nieuws, bij het afhalen</td></tr>
+              </table>
+              <p class="t-os">Je gebruikt het kanaal van De Speelboom, <strong>niet je eigen gsm</strong> of WhatsApp.</p>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Kort, positief, beleefd</h3>
+              <ul>
+                <li>Begin met het belangrijkste: <strong>wat</strong>, welke <strong>dag</strong> en hoe <strong>laat</strong>.</li>
+                <li>Zeg wat de ouders meegeven of doen.</li>
+                <li>Vertel wat leuk wordt, niet wat misgaat.</li>
+                <li><em>Beste ouders,</em> een groet, je naam en <em>stagiair</em>.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg><em>Jullie</em> of <em>u</em>?</h3>
+              <ul>
+                <li>Alle ouders van een groep: <strong>jullie</strong>. Eén ouder: <strong>je</strong>.</li>
+                <li>Meng ze nooit met <em>u</em> in hetzelfde bericht.</li>
+                <li>Iemand die je niet kent, zoals je mentor in les 3: <strong>u</strong>.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg>Hoofdletters, uitroeptekens en emoji's</h3>
+              <ul>
+                <li>In een bericht zie je geen gezicht en hoor je geen stem.</li>
+                <li>HOOFDLETTERS lezen als <strong>roepen</strong>.</li>
+                <li>Veel uitroeptekens maken een bericht luid of boos.</li>
+                <li>Een emoji kan anders overkomen dan je bedoelt. Zeg het in woorden.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>Andere kinderen? Niet in een groepsbericht</h3>
+              <ul>
+                <li>Zet geen namen of nieuws over andere kinderen in een bericht aan alle ouders.</li>
+                <li>Over één kind praat je met de ouders van dat kind.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg>Eenvoudige taal</h3>
+              <ul>
+                <li>Korte woorden en korte zinnen. Begin met het belangrijkste.</li>
+                <li>Geen dialect, beeldspraak of afkortingen.</li>
+                <li>Het uur in cijfers: <em>16.30 uur</em>, niet <em>half vijf</em>.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-link"/></svg>Een vertaalapp: kijk na</h3>
+              <ul>
+                <li>Een vertaalapp helpt bij korte, praktische berichten.</li>
+                <li>Hij vertaalt soms fout. Laat de vertaling terugvertalen, of vraag of de ouder het begreep.</li>
+                <li>Typ geen namen of persoonlijke gegevens in een vertaalapp.</li>
+                <li>Moeilijk nieuws? Dan praat je met de ouder.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-star"/></svg>Pictogrammen</h3>
+              <ul>
+                <li>Een pictogram is een klein, duidelijk beeld voor één ding: een klok voor het uur.</li>
+                <li>Ze helpen bij concrete dingen: een datum, een uur, een plaats, een voorwerp.</li>
+                <li>Ze vervangen de tekst niet.</li>
+              </ul>
+            </section>
+            <section class="t-card ai-hulp">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg>Slim met de AI-hulp</h3>
+              <ol class="t-delen">
+                <li>Typ geen namen of persoonlijke gegevens.</li>
+                <li>De AI-hulp kent alleen deze les.</li>
+                <li>Controleer het antwoord: klik op het nummertje, of kijk in de stap.</li>
+              </ol>
+            </section>
+            <section class="t-card wide">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>Woorden</h3>
+              <table class="t-rows">
+                <tr><th>kanaal</th><td>de weg waarlangs je bericht gaat: de app, de telefoon, een gesprek</td></tr>
+                <tr><th>register</th><td>hoe formeel je schrijft: <em>u</em> of <em>je</em>, je woorden, je zinnen</td></tr>
+                <tr><th>non-verbaal</th><td>wat je zegt zonder woorden. In een bericht: hoofdletters, uitroeptekens, emoji's</td></tr>
+                <tr><th>stagiair</th><td>wie stage loopt en leert op de werkplek</td></tr>
+                <tr><th>eenvoudige taal</th><td>korte woorden en heel korte zinnen, alleen wat de lezer nodig heeft</td></tr>
+                <tr><th>terugvertaling</th><td>een vertaling die je opnieuw laat vertalen naar het Nederlands, om te zien of de boodschap klopt</td></tr>
+                <tr><th>pictogram</th><td>een klein, duidelijk beeld voor één ding</td></tr>
+              </table>
+            </section>
+            <section class="t-card wide warn">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg>Veelgemaakte fouten</h3>
+              <ul>
+                <li>Een ziek kind of een ruzie melden in de app in plaats van te bellen of te praten.</li>
+                <li>Een ander kind bij naam in een bericht aan alle ouders.</li>
+                <li>Geen dag of geen uur, of <em>half vijf</em> in plaats van <em>16.30 uur</em>.</li>
+                <li><em>u</em>, <em>je</em> en <em>jullie</em> door elkaar; chattaal of dialect.</li>
+                <li>Hoofdletters, veel uitroeptekens of een lachende emoji.</li>
+                <li>Een negatieve zin zoals <em>anders worden de kleren vuil</em>.</li>
+                <li>Geen naam onder het bericht, of niet gezegd dat je stagiair bent.</li>
+              </ul>
+              <p class="t-os">Alle namen in deze les zijn verzonnen. De Speelboom-app bestaat niet.</p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="pane" id="pane-1" aria-labelledby="h-1">
+      <article class="card">
+        <header class="card-head"><div class="tags"><span class="tag tag-step">Stap 1</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument</span></div><h2 id="h-1">Start</h2></header>
+        <div class="card-body">
+          <p class="intro">Je test eerst wat je nog weet van les 3. Dan zet je je werkdocument klaar. Daarin schrijf je vandaag alles.</p>
+<div class="todo-box"><div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div><ol class="doe"><li><span class="doe-tekst">Beantwoord de drie vragen van <strong>Weet je het nog?</strong> hieronder.</span></li><li><details class="stapjes" open><summary><span class="doe-tekst">Open je werkdocument <strong>Ouderbericht</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Kijk in je opdracht in Google Classroom rechts, bij <strong>Jouw werk</strong>.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht in Google Classroom. Rechts het vak Jouw werk, in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Les 4 — Berichten aan ouders</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina</span></div><div class="mo-chip ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp</span></div></div><div class="mo-werk wijs"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>Ouderbericht</span></div><div class="mo-knop">Inleveren</div></div></div></li><li><p>Klik op <strong>Ouderbericht</strong>. Jouw naam staat in de titel.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht. Bij Jouw werk staat Ouderbericht in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Les 4 — Berichten aan ouders</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina</span></div><div class="mo-chip ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp</span></div></div><div class="mo-werk"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip wijs"><img class="logo" src="assets/logos/docs.svg" alt=""><span>Ouderbericht</span></div><div class="mo-knop">Inleveren</div></div></div></li><li><p>Je werkdocument opent in een nieuw tabblad. Klik bovenaan op een tabblad om te wisselen.</p><div class="teken-tabs" role="img" aria-label="Tekening van de tabbladen bovenaan in Chrome: Google Classroom, Lespagina · Les 4 en Ouderbericht. Ouderbericht staat in een rood kader."><span class="tt-tab"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</span><span class="tt-tab"><img class="logo" src="assets/logos/lespagina.webp" alt="">Lespagina · Les 4</span><span class="tt-tab actief wijs"><img class="logo" src="assets/logos/docs.svg" alt="">Ouderbericht</span></div></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Zoek in het kader <strong>De uitstap</strong>: waar gaan De Eekhoorns naartoe, en wanneer?</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Scroll naar het kader <em>De uitstap</em>. Zoek <em>Wat</em> en <em>Wanneer</em>.</p><img class="mini" src="assets/stapjes/s1-de-uitstap.png" alt="Het kader De uitstap. De regels Wat en Wanneer staan in een rood kader." loading="lazy"></li></ol></details></li></ol></div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Is de lespagina weg?</strong> Klik bovenaan in Chrome op het tabblad <em>Lespagina · Les 4</em>.</p></div>
+          <h3 class="sec">Weet je het nog?</h3>
+          <div class="quiz">
+            <div class="quiz-q" data-ok="Juist. Je kent haar nog niet: dus mevrouw en haar familienaam, met een komma." data-nok="Nog niet. Je mentor ken je nog niet. Dan schrijf je niet haar voornaam, maar mevrouw en haar familienaam.">
+              <p>1. Je mailt je mentor voor het eerst. Hoe begin je?</p>
+              <div class="opts"><button type="button">Hey Lien!</button><button type="button" data-right>Beste mevrouw Verhoeven,</button><button type="button">Beste,</button></div>
+              <p class="feedback" role="status"></p>
+            </div>
+            <div class="quiz-q" data-ok="Juist. In Bcc ziet niemand de adressen van de anderen." data-nok="Nog niet. In Aan en Cc ziet iedereen elkaars adres. Welk vakje verbergt de adressen?">
+              <p>2. Je mailt alle ouders van je groep. Waar zet je hun adressen?</p>
+              <div class="opts"><button type="button">In Aan</button><button type="button">In Cc</button><button type="button" data-right>In Bcc</button></div>
+              <p class="feedback" role="status"></p>
+            </div>
+            <div class="quiz-q" data-ok="Juist. Je klikt in de opdracht, rechts bij Jouw werk, op Inleveren. Je werkdocument gaat vanzelf mee." data-nok="Nog niet. In de lespagina kan je niets inleveren, en je hoeft niets te mailen. Je klikt in de opdracht op Inleveren.">
+              <p>3. Je bent klaar. Waar lever je in?</p>
+              <div class="opts"><button type="button">In de lespagina</button><button type="button" data-right>In de opdracht: klik op Inleveren</button><button type="button">Je mailt het werkdocument naar je leraar</button></div>
+              <p class="feedback" role="status"></p>
+            </div>
+          </div>
+        </div>
+        <footer class="card-nav"><button class="btn" type="button" data-goto="start"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Start</button><button class="btn btn-primary" type="button" data-goto="2">Stap 2 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></footer>
+      </article>
+    </section>
+
+    <section class="pane" id="pane-2" aria-labelledby="h-2">
+      <article class="card">
+        <header class="card-head"><div class="tags"><span class="tag tag-step">Stap 2</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 1</span></div><h2 id="h-2">Welk kanaal?</h2></header>
+        <div class="card-body">
+          <p class="intro">Een bericht in de app is niet altijd de beste weg. Je kiest het kanaal volgens wat de ouder moet doen.</p>
+<div class="todo-box"><div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div><ol class="doe"><li><details class="stapjes" open><summary><span class="doe-tekst">Bekijk <strong>deel 1</strong> van je werkdocument. Rij a is al ingevuld.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Scroll naar <strong>Deel 1</strong>. Rij a staat al ingevuld: zo kies je.</p><img class="mini" src="assets/stapjes/s2-deel1.png" alt="Deel 1 in het werkdocument. Rij a, al ingevuld, staat in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Kies bij situatie b tot e: <strong>app</strong>, <strong>bellen</strong> of <strong>gesprek</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Lees situatie b. Zoek: moet de ouder meteen iets doen? Klik in het vak onder <em>App, bellen of gesprek?</em> en typ je keuze.</p><img class="mini" src="assets/stapjes/s2-kanaal-b.png" alt="Deel 1: het lege vak in rij b onder App, bellen of gesprek?, in een rood kader." loading="lazy"></li><li><p>Klik in het vak onder <em>Waarom?</em> en typ waarom.</p><img class="mini" src="assets/stapjes/s2-waarom-b.png" alt="Deel 1: het lege vak in rij b onder Waarom?, in een rood kader." loading="lazy"></li><li><p>Doe hetzelfde voor situatie c, d en e.<span class="sub">Bij e: kijk op het kaartje hieronder wat je met je eigen gsm doet.</span></p></li></ol></details></li></ol></div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Twijfel je tussen bellen en gesprek?</strong> Moet de ouder meteen iets doen of beslissen? Dan bel je. Is het moeilijk nieuws? Dan praat je met de ouder.</p></div>
+          <div class="ccb kanaal">
+            <div class="ccb-vak"><span class="ccb-naam">App</span><span>Praktisch nieuws voor alle ouders, of een korte vraag van een ouder.</span></div>
+            <div class="ccb-vak"><span class="ccb-naam">Bellen</span><span>De ouder moet meteen iets doen of beslissen.</span></div>
+            <div class="ccb-vak"><span class="ccb-naam">Gesprek</span><span>Moeilijk of gevoelig nieuws. Bij het afhalen.</span></div>
+          </div>
+          <p class="nodig-noot">Je geeft je eigen gsm-nummer niet. Je gebruikt het kanaal van De Speelboom, niet WhatsApp. Voorbeeld, rij a: alle ouders moeten laarzen meegeven. Dat is <strong>app</strong>, want het is praktisch nieuws voor alle ouders.</p>
+        </div>
+        <footer class="card-nav"><button class="btn" type="button" data-goto="1"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 1</button><button class="btn btn-primary" type="button" data-goto="3">Stap 3 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></footer>
+      </article>
+    </section>
+
+    <section class="pane" id="pane-3" aria-labelledby="h-3">
+      <article class="card">
+        <header class="card-head"><div class="tags"><span class="tag tag-step">Stap 3</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 2</span></div><h2 id="h-3">Wat is er mis?</h2></header>
+        <div class="card-body">
+          <p class="intro">Kobe is ook stagiair. Hij schreef dit bericht aan alle ouders van De Eekhoorns. Wat zullen de ouders denken?</p>
+<div class="todo-box"><div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div><ol class="doe"><li><span class="doe-tekst">Zoek in het bericht van Kobe hieronder <strong>vier dingen</strong> die bij een ouder verkeerd overkomen.<span class="sub">Kijk naar de letters, de tekens, de woorden, wat ontbreekt en wie er bij naam staat.</span></span></li><li><details class="stapjes" open><summary><span class="doe-tekst">Bekijk <strong>deel 2</strong> van je werkdocument.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Scroll naar <strong>Deel 2</strong>. Fout 1 staat er al: zo doe je het.</p><img class="mini" src="assets/stapjes/s3-deel2.png" alt="Deel 2 in het werkdocument. Rij 1 met de eerste fout staat in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf nog <strong>vier</strong> fouten op, met hoe het beter kan.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Klik in rij 2, onder <em>Wat is er mis?</em>. Schrijf een fout van Kobe.</p><img class="mini" src="assets/stapjes/s3-rij2-fout.png" alt="Deel 2: het lege vak in rij 2 onder Wat is er mis?, in een rood kader." loading="lazy"></li><li><p>Schrijf ernaast, onder <em>Hoe kan het beter?</em>, hoe het beter kan.</p><img class="mini" src="assets/stapjes/s3-rij2-beter.png" alt="Deel 2: het lege vak in rij 2 onder Hoe kan het beter?, in een rood kader." loading="lazy"></li><li><p>Doe hetzelfde in rij 3, 4 en 5.</p></li></ol></details></li></ol></div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Vind je geen fout meer?</strong> Weten de ouders waarover het gaat, welke woensdag het is en hoe laat? Weten ze wie het stuurt? En wie staat er bij naam?</p></div>
+          <div class="app" role="group" aria-label="Het bericht van Kobe in de Speelboom-app"><div class="app-kop">Speelboom-app · Nieuw bericht</div><div class="app-veld"><span class="app-lbl">Aan</span><span>Alle ouders van De Eekhoorns</span></div><div class="app-veld"><span class="app-lbl">Titel</span><span><span class="app-leeg">(leeg)</span></span></div><div class="app-tekst"><p>HEY ALLEMAAL!!! woensdag trekken we de bossen in, dus botten aan anders zijn de kleren vuil en da is nie onze schuld he 😂 Amai, da wordt plezant! Tegen half vijf mogen jullie de kapoenen komen oppikken. Lina en Daan waren vandaag weer superdruk trouwens</p></div></div>
+        </div>
+        <footer class="card-nav"><button class="btn" type="button" data-goto="2"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 2</button><button class="btn btn-primary" type="button" data-goto="4">Stap 4 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></footer>
+      </article>
+    </section>
+
+    <section class="pane" id="pane-4" aria-labelledby="h-4">
+      <article class="card">
+        <header class="card-head"><div class="tags"><span class="tag tag-step">Stap 4</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 3</span></div><h2 id="h-4">Jouw bericht</h2></header>
+        <div class="card-body">
+          <p class="intro">Lien vraagt jou het bericht over de uitstap te schrijven. Eerst zie je hoe zij een bericht over een andere dag schreef.</p>
+<div class="todo-box"><div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div><ol class="doe"><li><span class="doe-tekst">Zoek in het bericht van Lien hieronder de <strong>vijf delen</strong>. Elk deel heeft een nummer.</span></li><li><details class="stapjes" open><summary><span class="doe-tekst">Typ in <strong>deel 3</strong> bij <strong>Aan</strong> en <strong>Titel</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Scroll naar <strong>Deel 3</strong>. Daar staat een venster zoals de Speelboom-app.</p><img class="mini" src="assets/stapjes/s4-venster.png" alt="Het venster Speelboom-app, Nieuw bericht, in deel 3, met de vakken Aan en Titel." loading="lazy"></li><li><p>Klik in het vak naast <strong>Aan</strong>. Typ voor wie het bericht is: alle ouders van je groep.</p><img class="mini" src="assets/stapjes/s4-aan.png" alt="Het venster Speelboom-app. Het vak Aan staat in een rood kader." loading="lazy"></li><li><p>Klik in het vak naast <strong>Titel</strong>. Typ in een paar woorden waarover het gaat.</p><img class="mini" src="assets/stapjes/s4-titel.png" alt="Het venster Speelboom-app. Het vak Titel staat in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf <strong>① aanspreking</strong> en <strong>② wat en wanneer</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Klik naast <em>① aanspreking</em>. Typ: <strong>Beste ouders,</strong></p><img class="mini" src="assets/stapjes/s4-aanspreking.png" alt="Het bericht in het venster. De regel ① aanspreking staat in een rood kader." loading="lazy"></li><li><p>Klik naast <em>② wat en wanneer</em>. Schrijf wat jullie doen, welke dag en hoe laat.<span class="sub">Gebruik de gegevens in het kader <em>De uitstap</em>. Het uur in cijfers: <em>13.30 uur</em>, niet <em>half twee</em>.</span></p><img class="mini" src="assets/stapjes/s4-wat.png" alt="Het bericht in het venster. De regel ② wat en wanneer staat in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf <strong>③ wat de ouders meegeven</strong> en <strong>④ iets positiefs</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Klik naast <em>③ wat geven de ouders mee?</em>. Zeg wat de kinderen meekrijgen.<span class="sub">Schrijf <em>jullie</em>, niet <em>je</em> en niet <em>u</em>.</span></p><img class="mini" src="assets/stapjes/s4-mee.png" alt="Het bericht in het venster. De regel ③ staat in een rood kader." loading="lazy"></li><li><p>Klik naast <em>④ iets positiefs</em>. Schrijf waar de kinderen naar uitkijken.<span class="sub">Zeg niet wat er misgaat of wiens schuld iets is.</span></p><img class="mini" src="assets/stapjes/s4-positief.png" alt="Het bericht in het venster. De regel ④ staat in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf <strong>⑤ groet, je naam en wie je bent</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Klik naast <em>⑤</em>. Typ een groet, daaronder je voornaam en achternaam, en dat je stagiair bent in De Speelboom.</p><img class="mini" src="assets/stapjes/s4-groet.png" alt="Het bericht in het venster. De regel ⑤ staat in een rood kader." loading="lazy"></li></ol></details></li></ol></div>
+          <div class="tip warn"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><p><strong>Schreef je <em>je</em>, <em>jij</em> of <em>u</em>?</strong> Verander het in <em>jullie</em>. Je schrijft aan alle ouders.</p></div>
+          <div class="app" role="group" aria-label="Het bericht van Lien in de Speelboom-app, met vijf genummerde delen"><div class="app-kop">Speelboom-app · Nieuw bericht</div><div class="app-veld"><span class="app-lbl">Aan</span><span>Alle ouders van De Eekhoorns</span></div><div class="app-veld"><span class="app-lbl">Titel</span><span>Vrijdag 13 november: pyjamadag</span></div><div class="app-tekst"><p><span class="app-nr" aria-hidden="true">1</span>Beste ouders,</p><p><span class="app-nr" aria-hidden="true">2</span>Vrijdag 13 november is het pyjamadag in De Speelboom. Jullie kind mag in pyjama naar de opvang komen.</p><p><span class="app-nr" aria-hidden="true">3</span>Geef een knuffel mee: we lezen samen een verhaal.</p><p><span class="app-nr" aria-hidden="true">4</span>De kinderen kijken er al naar uit!</p><p><span class="app-nr" aria-hidden="true">5</span>Vriendelijke groeten,<br>Lien Verhoeven, begeleider in De Speelboom</p></div></div>
+          <ol class="bouwplan">
+            <li><span class="bp-naam">① aanspreking</span><span class="bp-tekst">Beste ouders,</span></li>
+            <li><span class="bp-naam">② wat en wanneer</span><span class="bp-tekst">wat, welke dag en hoe laat (het uur in cijfers)</span></li>
+            <li><span class="bp-naam">③ wat geven de ouders mee?</span><span class="bp-tekst">zeg het met <em>jullie</em></span></li>
+            <li><span class="bp-naam">④ iets positiefs</span><span class="bp-tekst">wat de kinderen leuk vinden</span></li>
+            <li><span class="bp-naam">⑤ groet, je naam en wie je bent</span><span class="bp-tekst">groet, voornaam en achternaam, <em>stagiair in De Speelboom</em></span></li>
+          </ol>
+        </div>
+        <footer class="card-nav"><button class="btn" type="button" data-goto="3"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 3</button><button class="btn btn-primary" type="button" data-goto="5">Stap 5 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></footer>
+      </article>
+    </section>
+
+    <section class="pane" id="pane-5" aria-labelledby="h-5">
+      <article class="card">
+        <header class="card-head"><div class="tags"><span class="tag tag-step">Stap 5</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 4</span></div><h2 id="h-5">Voor elke ouder</h2></header>
+        <div class="card-body">
+          <p class="intro">Niet elke ouder leest goed Nederlands. De Speelboom-app heeft een vertaalknop. Kijk wat die deed met een zin van Kobe.</p>
+<div class="todo-box"><div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div><ol class="doe"><li><span class="doe-tekst">Zoek in de vertalingen hieronder <strong>twee dingen</strong> die niet klopten.</span></li><li><details class="stapjes" open><summary><span class="doe-tekst">Beantwoord in <strong>deel 4</strong> vraag <strong>a</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Scroll naar <strong>Deel 4</strong>. Typ in het vak onder <em>a</em> de twee dingen die misgingen.</p><img class="mini" src="assets/stapjes/s5-deel4.png" alt="Deel 4, vraag a, met het vak voor je antwoord in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf in <strong>b</strong> de zin opnieuw, in eenvoudige taal.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Klik in het vak onder <em>b</em>. Schrijf de zin van Kobe opnieuw.<span class="sub">Korte woorden, een korte zin, het uur in cijfers en geen dialect.</span></p><img class="mini" src="assets/stapjes/s5-zin.png" alt="Deel 4, vraag b, met het vak voor je antwoord in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Zoek twee pictogrammen die bij <strong>jouw bericht</strong> passen. Typ in <strong>c</strong> hun letters.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Kijk naar de pictogrammen A tot F hieronder. Welke twee horen bij wat je in je bericht schreef?</p></li><li><p>Klik in het vak onder <em>c</em>. Typ de twee letters.</p><img class="mini" src="assets/stapjes/s5-pict.png" alt="Deel 4, vraag c, met het vak voor je antwoord in een rood kader." loading="lazy"></li></ol></details></li><li><span class="doe-tekst">Klik hieronder op <strong>Kijk na</strong> en vergelijk met jouw zin.</span></li></ol></div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Twijfel je over een pictogram?</strong> Past het bij iets dat in jouw bericht staat? Dan kies je het.</p></div>
+          <div class="vert">
+            <h3 class="vert-kop">Zo vertaalde Google Vertalen op 12 oktober 2026</h3>
+            <blockquote class="vert-blok nl"><span class="vert-taal">Kobe schreef</span><p class="vert-zin">Amai, da wordt plezant! Tegen half vijf mogen jullie de kapoenen komen oppikken.</p></blockquote>
+            <blockquote class="vert-blok"><span class="vert-taal">Engels</span><p class="vert-zin">Wow, that will be fun! You can pick up the capons around half past four.</p><p class="vert-noot">Een <em>capon</em> is een gecastreerde haan. <em>Kapoenen</em> zijn hier kinderen.</p></blockquote>
+            <blockquote class="vert-blok"><span class="vert-taal">Turks</span><p class="vert-zin">Vay, çok eğlenceli olacak! Kaponları dört buçuk civarında alabilirsiniz.</p></blockquote>
+            <blockquote class="vert-blok nl"><span class="vert-taal">Het Turks, terug vertaald naar het Nederlands</span><p class="vert-zin">Wauw, dit gaat zo leuk worden! Kapoenen kun je rond half vier ophalen.</p><p class="vert-noot">Half vijf werd half vier: een uur te vroeg.</p></blockquote>
+          </div>
+          <h3 class="vert-kop">Pictogrammen</h3>
+<div class="pict-rij"><div class="pict"><svg class="pict-svg" viewBox="0 0 64 64" role="img" aria-label="Pictogram A: laars"><path d="M22 8h16v26c0 4 3 6 9 8 5 2 8 4 8 9v5H22z" fill="#A7B1DE" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M22 8h16v7H22z" fill="#3C51A0" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M22 51h33" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></svg><span class="pict-letter">A</span></div><div class="pict"><svg class="pict-svg" viewBox="0 0 64 64" role="img" aria-label="Pictogram B: regenjas"><path d="M22 18L10 28l5 22 8-3v11h18V47l8 3 5-22-12-10Q32 30 22 18z" fill="#A7B1DE" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M22 18Q32 4 42 18" fill="#FCD6CF" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M32 27v31" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="32" cy="34" r="1.6" fill="#2A3973"/><circle cx="32" cy="44" r="1.6" fill="#2A3973"/></svg><span class="pict-letter">B</span></div><div class="pict"><svg class="pict-svg" viewBox="0 0 64 64" role="img" aria-label="Pictogram C: klok die half vijf toont"><circle cx="32" cy="32" r="23" fill="#fff" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M32 12v4M32 48v4M12 32h4M48 32h4" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M32 32V46" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M32 32l8 8" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="32" cy="32" r="2.5" fill="#2A3973"/></svg><span class="pict-letter">C</span></div><div class="pict"><svg class="pict-svg" viewBox="0 0 64 64" role="img" aria-label="Pictogram D: boom"><rect x="29" y="34" width="6" height="21" rx="3" fill="#8A5A3B" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="32" cy="24" r="15" fill="#1F7A55" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="20" cy="32" r="10" fill="#2E9B6E" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44" cy="32" r="10" fill="#2E9B6E" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 55h40" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></svg><span class="pict-letter">D</span></div><div class="pict"><svg class="pict-svg" viewBox="0 0 64 64" role="img" aria-label="Pictogram E: zwembroek"><path d="M12 18h40l3 26q0 5-5 5h-9q-5 0-6-6l-3-9-3 9q-1 6-6 6h-9q-5 0-5-5z" fill="#FCD6CF" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="12" y="14" width="40" height="8" rx="2" fill="#3C51A0" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M20 26l-2 17M44 26l2 17" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></svg><span class="pict-letter">E</span></div><div class="pict"><svg class="pict-svg" viewBox="0 0 64 64" role="img" aria-label="Pictogram F: verjaardagstaart"><path d="M32 8q-5 6 0 11 5-5 0-11z" fill="#F2A93B" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="30" y="19" width="4" height="12" fill="#A7B1DE" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="12" y="31" width="40" height="22" rx="3" fill="#FCD6CF" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 38q5 6 10 0t10 0 10 0 10 0" fill="none" stroke="#2A3973" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></svg><span class="pict-letter">F</span></div></div>
+          <div class="kijkna">
+            <button class="btn" type="button" id="kijkna-knop" aria-expanded="false" aria-controls="kijkna-inhoud">Kijk na</button>
+            <div class="kijkna-inhoud vert" id="kijkna-inhoud" hidden>
+              <h3 class="vert-kop">Zo vertaalde Google Vertalen op 12 oktober 2026</h3>
+              <blockquote class="vert-blok nl"><span class="vert-taal">Een zin in eenvoudige taal</span><p class="vert-zin">Om 16.30 uur kunnen jullie je kind ophalen.</p></blockquote>
+              <blockquote class="vert-blok"><span class="vert-taal">Engels</span><p class="vert-zin">You can pick up your child at 4:30 PM.</p></blockquote>
+              <blockquote class="vert-blok"><span class="vert-taal">Turks</span><p class="vert-zin">Çocuğunuzu saat 16.30'da alabilirsiniz.</p></blockquote>
+              <blockquote class="vert-blok nl"><span class="vert-taal">Het Turks, terug vertaald naar het Nederlands</span><p class="vert-zin">U kunt uw kind om 16.30 uur ophalen.</p><p class="vert-noot">Het uur bleef juist, en er staan geen kapoenen meer in.</p></blockquote>
+              <p>Vergelijk met jouw zin. Staat het uur in cijfers? Zijn de woorden en de zin kort? Staat er geen dialect in?</p>
+            </div>
+          </div>
+        </div>
+        <footer class="card-nav"><button class="btn" type="button" data-goto="4"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 4</button><button class="btn btn-primary" type="button" data-goto="6">Stap 6 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></footer>
+      </article>
+    </section>
+
+    <section class="pane" id="pane-6" aria-labelledby="h-6">
+      <article class="card">
+        <header class="card-head met-mascotte"><div><div class="tags"><span class="tag tag-step">Stap 6</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-send"/></svg> Inleveren</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 5</span></div><h2 id="h-6">Nalezen en inleveren</h2></div><img class="mascotte-kop" src="assets/mascotte/dalton_inleveren.webp" alt="" width="120" height="120"></header>
+        <div class="card-body">
+          <p class="intro">Bijna klaar. Je leest je bericht na met de criteria, en je levert in.</p>
+<div class="todo-box"><div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div><ol class="doe"><li><details class="stapjes" open><summary><span class="doe-tekst">Kruis in <strong>deel 5</strong> aan wat klopt.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Scroll naar <strong>Deel 5</strong>. Lees je bericht in deel 3 na, met de zinnen in deel 5.</p><img class="mini" src="assets/stapjes/s6-deel5.png" alt="Deel 5 Nalezen: een tabel. Links een leeg vak, in het midden wat moet kloppen, rechts de punten." loading="lazy"></li><li><p>Klopt een zin? Klik in het vak ervoor en typ <strong>x</strong>.</p><img class="mini" src="assets/stapjes/s6-kruis.png" alt="Deel 5: in het vak voor de eerste zin staat nu een x, in een rood kader." loading="lazy"></li><li><p>Klopt iets nog niet? Verbeter eerst je bericht.</p></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Beantwoord de slotvraag.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Klik in het vak onder <em>Waarom vertel je moeilijk nieuws liever niet in de app?</em> en typ je antwoord.</p><img class="mini" src="assets/stapjes/s6-slotvraag.png" alt="Deel 5: de slotvraag met het vak eronder, in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Lever in.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Klik bovenaan op het tabblad <strong class="met-logo"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</strong>.</p><div class="teken-tabs" role="img" aria-label="Tekening van de tabbladen bovenaan in Chrome. Het tabblad Google Classroom staat in een rood kader."><span class="tt-tab wijs"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</span><span class="tt-tab"><img class="logo" src="assets/logos/lespagina.webp" alt="">Lespagina · Les 4</span><span class="tt-tab actief"><img class="logo" src="assets/logos/docs.svg" alt="">Ouderbericht</span></div></li><li><p>Zoek rechts, bij <strong>Jouw werk</strong>, de knop <span class="ui">Inleveren</span>. Klik erop en bevestig.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht. Bij Jouw werk staat de knop Inleveren in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Les 4 — Berichten aan ouders</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina</span></div><div class="mo-chip ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp</span></div></div><div class="mo-werk"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>Ouderbericht</span></div><div class="mo-knop wijs">Inleveren</div></div></div></li></ol></details></li></ol></div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Niet klaar om 16.15 uur?</strong> Werk verder tot vrijdag 23 oktober 2026, 20.00 uur. Klik op <span class="ui">Inleveren</span> als je klaar bent.</p></div>
+          <h3 class="vert-kop">Hier lever je in</h3>
+          <div class="mock mock-opdracht" role="img" aria-label="Tekening van de opdracht in Google Classroom. Rechts, bij Jouw werk, staat de knop Inleveren in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Les 4 — Berichten aan ouders</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina</span></div><div class="mo-chip ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp</span></div></div><div class="mo-werk"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>Ouderbericht</span></div><div class="mo-knop wijs">Inleveren</div></div></div>
+        </div>
+        <footer class="card-nav"><button class="btn" type="button" data-goto="5"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 5</button><button class="btn btn-primary" type="button" data-goto="extra">Extra <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></footer>
+      </article>
+    </section>
+
+    <section class="pane" id="pane-extra" aria-labelledby="h-extra">
+      <article class="card">
+        <header class="card-head"><div class="tags"><span class="tag tag-extra">Extra · niet verplicht</span></div><h2 id="h-extra">Antwoord aan een mama</h2></header>
+        <div class="card-body">
+          <p class="intro">Begin hier pas nadat je hebt ingeleverd. Het telt niet mee. Een mama antwoordt in de app.</p>
+          <blockquote class="vert-blok nl"><span class="vert-taal">De mama schrijft</span><p class="vert-zin">Mijn zoon heeft geen laarzen. Mag hij met sportschoenen komen?</p></blockquote>
+<div class="todo-box"><div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div><ol class="doe"><li><details class="stapjes" open><summary><span class="doe-tekst">Typ in het vak onder <strong>Extra</strong> een kort, vriendelijk antwoord.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Scroll naar onder <strong>Extra</strong>. Klik in het vak en typ je antwoord.</p><img class="mini" src="assets/stapjes/s7-extra.png" alt="Het deel Extra met de vraag en het vak voor je antwoord, in een rood kader." loading="lazy"></li></ol></details></li><li><details class="stapjes" open><summary><span class="doe-tekst">Lever opnieuw in.</span><span class="stapjes-knop" aria-hidden="true"></span></summary><ol class="klein"><li><p>Klik bovenaan op het tabblad Google Classroom. Klik rechts, bij <strong>Jouw werk</strong>, op <span class="ui">Inleveren ongedaan maken</span>.</p></li><li><p>Klik daarna opnieuw op <span class="ui">Inleveren</span> en bevestig.</p></li></ol></details></li></ol></div>
+        </div>
+        <footer class="card-nav"><button class="btn" type="button" data-goto="6"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 6</button><button class="btn" type="button" data-goto="start">Naar het begin</button></footer>
+      </article>
+    </section>
+  </main>
+
+  <!-- ============ RECHTS: de checklist ============ -->
+  <aside class="checklist leeg" id="checklist" aria-labelledby="h-cl">
+    <div class="cl-head">
+      <h2 id="h-cl">Checklist</h2>
+      <div class="cl-bar" role="progressbar" aria-label="Voortgang" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="cl-fill" id="clFill"></div></div>
+      <p class="cl-count" id="clCount">0 van 0 klaar</p>
+    </div>
+    <div class="cl-body">
+      <div class="cl-group" data-step="1"><h3>1 · Start</h3>
+        <label class="cl-item"><input type="checkbox" id="c1a"><span>Weet je het nog? gedaan</span></label>
+        <label class="cl-item"><input type="checkbox" id="c1b"><span>Werkdocument Ouderbericht open</span></label>
+        <label class="cl-item"><input type="checkbox" id="c1c"><span>Het kader De uitstap gelezen</span></label>
+      </div>
+      <div class="cl-group" data-step="2"><h3>2 · Welk kanaal?</h3>
+        <label class="cl-item"><input type="checkbox" id="c2a"><span>Situatie b tot e: app, bellen of gesprek</span></label>
+        <label class="cl-item"><input type="checkbox" id="c2b"><span>Bij elke situatie een reden</span></label>
+      </div>
+      <div class="cl-group" data-step="3"><h3>3 · Wat is er mis?</h3>
+        <label class="cl-item"><input type="checkbox" id="c3a"><span>Vier fouten van Kobe in deel 2</span></label>
+        <label class="cl-item"><input type="checkbox" id="c3b"><span>Bij elke fout: hoe het beter kan</span></label>
+      </div>
+      <div class="cl-group" data-step="4"><h3>4 · Jouw bericht</h3>
+        <label class="cl-item"><input type="checkbox" id="c4a"><span>Aan en Titel ingevuld</span></label>
+        <label class="cl-item"><input type="checkbox" id="c4b"><span>Beste ouders, en wat, welke dag, hoe laat</span></label>
+        <label class="cl-item"><input type="checkbox" id="c4c"><span>Wat de ouders meegeven en iets positiefs, met jullie</span></label>
+        <label class="cl-item"><input type="checkbox" id="c4d"><span>Groet, mijn naam en stagiair</span></label>
+      </div>
+      <div class="cl-group" data-step="5"><h3>5 · Voor elke ouder</h3>
+        <label class="cl-item"><input type="checkbox" id="c5a"><span>Twee dingen die misgingen (deel 4a)</span></label>
+        <label class="cl-item"><input type="checkbox" id="c5b"><span>De zin in eenvoudige taal (deel 4b)</span></label>
+        <label class="cl-item"><input type="checkbox" id="c5c"><span>Twee pictogrammen (deel 4c)</span></label>
+      </div>
+      <div class="cl-group" data-step="6"><h3>6 · Inleveren</h3>
+        <label class="cl-item"><input type="checkbox" id="c6a"><span>Deel 5 aangekruist</span></label>
+        <label class="cl-item"><input type="checkbox" id="c6b"><span>Slotvraag beantwoord</span></label>
+        <label class="cl-item"><input type="checkbox" id="c6c"><span>Werkdocument ingeleverd</span></label>
+      </div>
+    </div>
+    <div class="cl-foot">
+      <button class="btn cl-toggle" type="button" id="clToggle" aria-expanded="false">Toon alles</button>
+      <button class="btn" type="button" id="btnReset">Vinkjes wissen</button>
+      <p class="cl-note">Je vinkjes staan alleen op deze computer. Er wordt niets doorgestuurd.</p>
+    </div>
+  </aside>
+</div>
+
+<!-- ============ Klaar! ============ -->
+<div class="klaar-overlay" id="klaar" role="dialog" aria-modal="true" aria-labelledby="h-klaar" hidden>
+  <div class="klaar-card">
+    <img class="mascotte-klaar" src="assets/mascotte/dalton_succes.webp" alt="" width="150" height="150">
+    <h2 id="h-klaar">Je bericht is klaar!</h2>
+    <p>Alles is afgevinkt. Heb je nog tijd? Probeer dan het <strong>Extra</strong>.</p>
+    <p>Volgende les, maandag 26 oktober: wat mag je delen? Foto's, namen en groepschats.</p>
+    <button class="btn btn-primary" type="button" id="klaarSluit">Sluiten</button>
+  </div>
+</div>
+
+<footer class="site">
+  Toegepaste Informatica · GO! Dalton Gent · De Speelboom is een fictieve opvang en de Speelboom-app bestaat niet. Alle namen en gegevens zijn verzonnen.
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
