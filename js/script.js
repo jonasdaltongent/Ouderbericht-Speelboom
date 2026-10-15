@@ -190,6 +190,63 @@
     });
   });
 
+  /* ---------- 6b. Inleveren pas na de zelftest (15-10-2026) ----------
+   * Een todo-box met data-na-zelftest="<id van een vinkje>" blijft dicht tot alle vragen van de zelftest in
+   * dezelfde stap juist zijn (Jonas: anders slaan ze de zelftest over en leveren ze meteen in). Opnieuw
+   * proberen mag. Eenmaal open blijft hij open, ook na herladen, en het vinkje gaat aan. Zonder JavaScript
+   * en met ?leraar staat alles open. Heeft de slotregel data-codewoord, dan toont ze dat woord als alles
+   * juist is: de leerling typt het in het werkdocument (staat niet in de tekst, dus niet in ai-bron.txt). */
+  all('[data-na-zelftest]').forEach(function (box) {
+    var pane = box.closest('.pane');
+    var vragen = all('.quiz-q', pane);
+    var slot = pane.querySelector('.slot');
+    var tekst = slot && slot.querySelector('.slot-tekst');
+    var sleutel = 'open_' + pane.id;
+    var vink = document.getElementById(box.getAttribute('data-na-zelftest'));
+    function juist() { return vragen.filter(function (q) { return q.querySelector('button.right'); }).length; }
+    function toon(open) {
+      box.hidden = !open;
+      if (!slot) return;
+      slot.classList.toggle('open', open);
+      var n = vragen.length - juist();
+      var code = slot.getAttribute('data-codewoord');   // het bewijs in het werkdocument (sinds 15-10-2026)
+      if (!tekst) return;
+      if (open && code) {
+        tekst.textContent = 'Alles juist. Jouw codewoord is ';
+        var b = document.createElement('strong');
+        b.className = 'codewoord';
+        b.textContent = code;
+        tekst.appendChild(b);
+        tekst.appendChild(document.createTextNode('. Typ het in je werkdocument. Zo lever je in:'));
+      } else {
+        tekst.textContent = open ? 'Alles juist. Zo lever je in:' :
+          'Nog ' + n + (n === 1 ? ' vraag' : ' vragen') + ' juist te beantwoorden. Dan zie je hier hoe je inlevert.';
+      }
+    }
+    function maakOpen() {
+      store(sleutel, true);
+      toon(true);
+      if (vink && !vink.checked) { vink.checked = true; vink.dispatchEvent(new Event('change')); }
+      setTimeout(function () {             // de regel net onder de vaste balk bovenaan, de stappen eronder
+        if (!slot) return;
+        var balk = document.querySelector('.topbar');
+        var marge = (balk && getComputedStyle(balk).position !== 'static' ? balk.offsetHeight : 0) + 16;
+        window.scrollTo({ top: slot.getBoundingClientRect().top + window.scrollY - marge, behavior: 'smooth' });
+      }, 700);
+    }
+    var open = teacherMode || load(sleutel, false) || !vragen.length;
+    toon(open);
+    if (open) return;
+    vragen.forEach(function (q) {
+      all('button', q).forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (!box.hidden) return;
+          if (juist() === vragen.length) maakOpen(); else toon(false);
+        });
+      });
+    });
+  });
+
   /* ---------- 7. Screenshot-plaatsen ---------- */
   all('figure.shot').forEach(function (fig) {
     var file = fig.getAttribute('data-shot');

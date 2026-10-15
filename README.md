@@ -63,6 +63,11 @@ de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone 
 
 ### 1b. Hoe de lespagina werkt
 
+- **Stap 6: inleveren pas na de zelftest, met een codewoord** (15-10-2026, Jonas: "wel in alles wat er na komt"; zoals
+  MWW les 3): drie nieuwe vragen (welk kanaal bij een kind dat naar de dokter moet, *jullie* in een groepsbericht, een
+  vertaalapp nakijken). *Wat moet je doen?* blijft dicht tot alle drie juist zijn; dan toont de groene regel het
+  codewoord **EEKHOORN**, dat de leerling bovenaan deel 5 typt. Het Google-document aan het concept is vervangen
+  (15-10-2026, 11.47, nog `DRAFT`). Dit is een afstandsles: opnieuw proberen mag, dus niemand blijft vast.
 - **Startpagina**: *Wat heb je nodig?* in drie beelden (de opdracht, de lespagina, het werkdocument), één zin
   *Je werkt thuis: alles wat je nodig hebt, staat hier*, *Na deze les kan je*, *Vast?* als genummerde rij.
 - **Route** links, **één stap** in het midden, **checklist** rechts (17 taken). Op een smal scherm staat alles
@@ -184,6 +189,7 @@ als privéreactie. In de AI-hulp zie je wie een gesprek begon (niet wat gevraagd
 
 ## 4. Verbetersleutel
 
+- **Codewoord** bovenaan deel 5: **EEKHOORN**. Ontbreekt het, dan is de zelftest van stap 6 niet (juist) gemaakt.
 - **Deel 1** (4 punten): b **bellen** (de ouder moet meteen iets doen; een bericht wordt misschien te laat
   gelezen) · c **gesprek** bij het afhalen (bellen mag ook): gevoelig, de ouder moet je kunnen horen en zien en iets
   kunnen vragen · d **Speelboom-app**: een korte, praktische vraag, antwoord met een berichtje · e **Speelboom-app**: als
@@ -242,6 +248,8 @@ ondersteunend · `BV2_04.04` voorbereidend · `BV2_07.03` contextueel. De pre-pu
 
 ## 8. Wat nog moet blijken in de klas
 
+- **Inleveren pas na de zelftest, thuis** (15-10-2026): raken de leerlingen zonder leraar door de drie vragen? Staat
+  *EEKHOORN* bovenaan deel 5?
 - **Het filmpje Inleveren** (15-10-2026, in de laatste stap, in elke les tot de leerlingen het systeem kennen): leveren ze
   in zonder te vragen? Kijken ze naar het filmpje, en klikken ze in het venster *Je werk inleveren?* nog eens op *Inleveren*?
 - **Werken ze alleen door?** Komen ze zonder leraar tot en met stap 6, of haken ze af bij stap 4 (15 minuten, het

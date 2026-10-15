@@ -84,6 +84,10 @@ def ouderbericht():
 
     # ---- Deel 5: nalezen = de criteria van de beoordeling (lesvoorbereiding § 22)
     deel(doc, 5, "Nalezen")
+    # eerst het codewoord van de zelftest (15-10-2026): de lespagina toont het pas als de drie vragen van stap 6
+    # juist zijn; zo ziet Jonas wie de zelftest echt maakte (_afspraken/lespagina.md, De laatste stap)
+    vraag(doc, "Het codewoord van de zelftest (stap 6 op de lespagina):")
+    antwoordvak(doc, 0.9)
     controletabel(doc, [
         ("Deel 1: bij b tot e staat *Speelboom-app*, *bellen* of *gesprek*, met een reden.", 4),
         ("Deel 2: ik vond vier fouten en schreef erbij hoe het beter kan.", 2),

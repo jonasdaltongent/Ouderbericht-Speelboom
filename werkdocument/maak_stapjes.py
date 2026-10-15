@@ -139,7 +139,9 @@ def main(leeg):
     vakken = vlakken(p, VAK)
     # vraag a is een tabel (twee rijen van twee vakken: Kobe schreef · Google Vertalen maakte ervan), dan b en c
     a1_kobe, a1_vert, a2_kobe, a2_vert, vb, vc = [v for v in vakken if kop4.y1 < v.y0 < kop5.y0]
-    vinkjes = [v for v in vakken if kop5.y1 < v.y0 < slot.y0]
+    code = tekst(p, "Het codewoord")                 # sinds 15-10-2026: deel 5 begint met het codewoord
+    antw_code = [v for v in vakken if code.y1 < v.y0 < slot.y0][0]
+    vinkjes = [v for v in vakken if antw_code.y1 < v.y0 < slot.y0]
     antw_slot = [v for v in vakken if v.y0 > slot.y1][0]
     links, rechts = vb.x0, vb.x1
     qa, qb, qc = tekst(p, "Welke twee fouten"), tekst(p, "Schrijf de zin van Kobe"), tekst(p, "Welke twee pictogrammen")
@@ -150,6 +152,8 @@ def main(leeg):
            [fitz.Rect(links, qb.y0 - 2, rechts, vb.y1)])
     bewaar(p, "s5-pict", rand(fitz.Rect(links, qc.y0, rechts, vc.y1), 8, 10),
            [fitz.Rect(links, qc.y0 - 2, rechts, vc.y1)])
+    bewaar(p, "s6-codewoord", rand(fitz.Rect(links, kop5.y0, rechts, antw_code.y1), 8, 10),
+           [fitz.Rect(links, code.y0 - 2, rechts, antw_code.y1)], onder=antw_code.y1 + 4)
     tab5 = fitz.Rect(links, kop5.y0, rechts, vinkjes[-1].y1)
     bewaar(p, "s6-deel5", rand(tab5), onder=vinkjes[-1].y1 + 1)
     bewaar(p, "s6-slotvraag", rand(fitz.Rect(links, slot.y0, rechts, antw_slot.y1), 8, 10),
