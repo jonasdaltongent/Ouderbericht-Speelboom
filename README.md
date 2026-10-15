@@ -242,6 +242,8 @@ ondersteunend · `BV2_04.04` voorbereidend · `BV2_07.03` contextueel. De pre-pu
 
 ## 8. Wat nog moet blijken in de klas
 
+- **Het filmpje Inleveren** (15-10-2026, in de laatste stap, in elke les tot de leerlingen het systeem kennen): leveren ze
+  in zonder te vragen? Kijken ze naar het filmpje, en klikken ze in het venster *Je werk inleveren?* nog eens op *Inleveren*?
 - **Werken ze alleen door?** Komen ze zonder leraar tot en met stap 6, of haken ze af bij stap 4 (15 minuten, het
   eigen bericht)? Hoeveel leerlingen leveren in vóór vrijdag?
 - **Vinden ze Inleveren?** Het meest gestelde vraag in les 3 was "Waar moet ik inleveren?". Helpen de quiz in stap 1
