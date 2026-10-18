@@ -29,7 +29,7 @@ opgesteld_volgens: "_afspraken/ (werkruimte Toegepaste Informatica)"
 >    voorbeeld en *Zo werk je verder* over. **Instructie 0 minuten, keuzewerktijd 50 minuten.**
 > 2. **Chromebook, thuis**: `<meta name="toestel" content="chromebook">`. De les vraagt geen bestanden, geen
 >    Downloads en geen rechtsklik: alleen twee tabbladen, typen in het werkdocument en **Inleveren**.
-> 3. **Hulp thuis**: *Vast?* = *Toon stapjes* → *AI-hulp*. Wie echt niet verder kan, gaat naar de volgende stap
+> 3. **Hulp thuis**: *Vast?* = *Toon stapjes*. Wie echt niet verder kan, gaat naar de volgende stap
 >    en levert op het einde toch in. Er is geen buur en geen leraar, en **geen privéreactie**: Jonas leest ze niet
 >    (18-10-2026: "Die ga ik toch niet nalezen").
 > 4. **Niet klaar?** staat deze keer wel op de lespagina, in stap 6: thuis zegt niemand het mondeling. Wie om
@@ -56,7 +56,7 @@ kwam was "Waar moet ik inleveren?"; er was waarschijnlijk tijd over; 8 leerlinge
 Vandaag werken ze **thuis en alleen**. Online leren veronderstelt zelfstandigheid en zelfsturing, en laat
 zwakkere leerlingen sneller los (Hello World 13 p. 95). Daarom: dezelfde opzet als les 3 (opdracht, lespagina,
 werkdocument in twee tabbladen), korte stappen, bij elke leestaak een doel vooraf, een voorbeeld op de plek waar
-ze het nodig hebben, en een AI-hulp.
+ze het nodig hebben (de AI-hulp is weg sinds 18-10-2026: Jonas denkt dat de leerlingen ze niet gebruiken).
 
 ## 3. Tijdsduur
 
@@ -124,7 +124,7 @@ al voor taken in de studie.
 ## 11. Benodigd materiaal en software
 
 De eigen Chromebook, thuis, met het schoolaccount; Chrome. De opdracht in Classroom met de lespagina, het
-werkdocument *Ouderbericht* (een kopie per leerling) en de AI-hulp (Gemini Notebook). Geen beamer: de dia's zijn
+werkdocument *Ouderbericht* (een kopie per leerling). Geen beamer: de dia's zijn
 reserve (afwijking 5).
 
 ## 12. Voorbereiding door de leraar
@@ -132,15 +132,14 @@ reserve (afwijking 5).
 Zie `README.md` §2. Het concept staat klaar in `3MWb - Informatica` en wordt **ingepland**: Classroom publiceert
 het ma 19-10 om **8.25 uur**, het eerste lesuur (eenmalige uitzondering, Jonas 12-10-2026: "Je mag deze inderdaad
 vroeger publiceren. Je mag ze eenmalig zelfs al op maandag op het eerste lesuur publiceren."; de gewone regel,
-een half uur vóór het lesuur, staat in `_afspraken/publiceren.md`). De AI-hulp
-hangt aan het concept (`_afspraken/ai-hulp.md`). Na de les: één top en één tip als privéreactie.
+een half uur vóór het lesuur, staat in `_afspraken/publiceren.md`). Geen AI-hulp
+(sinds 18-10-2026, `_afspraken/ai-hulp.md`). Na de les: één top en één tip als privéreactie.
 
 ## 13. Opbouw in Google Classroom
 
 Klas `3MWb - Informatica`, onderwerp *Module 1 — Organiseren en professioneel communiceren*, opdracht
 **Les 4 — Berichten aan ouders**, 20 punten, deadline **vrijdag 23 oktober 2026, 20.00 uur**. Bijlagen: de
-lespagina (link), *Ouderbericht* (een kopie voor elke leerling) en de notebook *AI-hulp · Les 4 · Berichten aan
-ouders*. Geen zip. Instructietekst:
+lespagina (link) en *Ouderbericht* (een kopie voor elke leerling). Geen notebook (sinds 18-10-2026). Geen zip. Instructietekst:
 
 ```text
 Je werkt thuis op je Chromebook.
@@ -267,17 +266,16 @@ vooraf uitleggen).
 
 - **Minimumroute**: stap 1, 2, 4 en 6 (het kanaal, het eigen bericht, inleveren).
 - **Scaffolds**: de ingevulde eerste rijen; het bericht van Lien als uitgewerkt voorbeeld; de vijf grijze labels
-  (het bouwplan); de theoriekaart; de stapjes met een beeld; de AI-hulp; de criteria vooraf in deel 5 (Wijze
+  (het bouwplan); de theoriekaart; de stapjes met een beeld; de criteria vooraf in deel 5 (Wijze
   lessen, bouwsteen 7: checklist met criteria, aandacht voor vaak voorkomende fouten, uitgewerkte voorbeelden).
 - **Snelle leerlingen**: *Extra* (antwoord aan een mama), na het inleveren.
-- **Thuis vast**: *Toon stapjes* → *AI-hulp* (afwijking 3). Wie echt niet verder kan, gaat naar de volgende stap
+- **Thuis vast**: *Toon stapjes* (afwijking 3). Wie echt niet verder kan, gaat naar de volgende stap
   en levert op het einde in.
 
 ## 21. Controle van begrip
 
 De quiz in stap 1 met directe uitleg bij elk antwoord; *Kijk na* in stap 5; de zelfcontrole met de criteria in
-deel 5; de slotvraag (deel 5). Jonas ziet de werkdocumenten na de les; de AI-hulp toont hem wie een gesprek
-begon (`_afspraken/ai-hulp.md`).
+deel 5; de slotvraag (deel 5). Jonas ziet de werkdocumenten na de les.
 
 ## 22. Evaluatiecriteria en essentiële fouten
 
@@ -299,7 +297,7 @@ onder het bericht.
 
 ## 23. Feedback
 
-Thuis: de directe uitleg in de quiz en bij *Kijk na*, de AI-hulp. Na de les: één top en één tip als
+Thuis: de directe uitleg in de quiz en bij *Kijk na*. Na de les: één top en één tip als
 privéreactie in Classroom (`_afspraken/evaluatie-en-privacy.md`).
 
 ## 24. Indieninstructies
@@ -334,7 +332,7 @@ emoji's* · *Andere kinderen? Niet in een groepsbericht* · *Eenvoudige taal* ·
 ## 28. Interactieve functies
 
 Route met onthouden stap; *Stap voor stap / Kort*; checklist met voortgang; de quiz *Weet je het nog?* (3 vragen,
-directe uitleg); *Kijk na* in stap 5; `?leraar`; `data-ai-hulp="aan"`. `localStorage` alleen voor vinkjes, stap en
+directe uitleg); *Kijk na* in stap 5; `?leraar`; `data-ai-hulp="uit"` (sinds 18-10-2026). `localStorage` alleen voor vinkjes, stap en
 modus (`speelboom_ouderbericht_v1_`).
 
 **De quiz *Weet je het nog?*** (stap 1)

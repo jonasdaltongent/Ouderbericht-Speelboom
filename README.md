@@ -37,7 +37,7 @@ W08 - Les 04 - MW - Berichten aan ouders/
 ├── dalton-lesfiche.html    de Dalton-lesfiche (instructie 0 + KWT 50): openen, Kopieer de fiche, plakken
 ├── lesdoelen.json          de doelen voor je jaaroverzicht
 ├── classroom.json          de opdracht voor de Classroom-koppeling
-├── ai-bron.txt             de volledige tekst van de lespagina: de bron van de AI-hulp
+├── ai-bron.txt             de volledige tekst van de lespagina (was de bron van de AI-hulp, die is weg)
 └── README.md               deze handleiding
 ```
 
@@ -47,7 +47,7 @@ Daarom: geen instructie, de lespagina doet alles (de quiz *Weet je het nog?*, he
 de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone les staan bovenaan
 `lesvoorbereiding.md`; de belangrijkste:
 
-- **Vast?** = *Toon stapjes* → *AI-hulp*; kom je echt niet verder, ga dan naar de volgende stap en lever op het einde
+- **Vast?** = *Toon stapjes*; kom je echt niet verder, ga dan naar de volgende stap en lever op het einde
   toch in. **Geen privéreactie**: Jonas leest ze niet (18-10-2026: "Die ga ik toch niet nalezen").
 - **Niet klaar?** staat deze keer wel op de lespagina, in stap 6: werk verder tot de deadline.
 - **De dia's** (`presentatie.html`) zijn een **reserve**: ze worden op 19-10 niet getoond (de notities van dia 1
@@ -74,7 +74,7 @@ de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone 
 - **Stap voor stap / Kort**: de les begint in *Stap voor stap* (`data-modus-start="stap"`).
 - **Titel van de pagina**: *Lespagina · Les 4 · …*: zo heet de link in de opdracht.
 - **Toestel**: `<meta name="toestel" content="chromebook">`; geen Windows-woorden.
-- **AI-hulp**: aan (`data-ai-hulp="aan"` op `<body>`), want de notebook hangt aan de opdracht (zie hieronder): in *Vast?* en op de theoriekaart.
+- **AI-hulp**: uit (`data-ai-hulp="uit"` op `<body>`, sinds 18-10-2026; zie hieronder).
 - `?leraar` toont screenshot-plaatsen (deze les heeft er geen: de beelden zijn tekeningen en uitsneden van het
   werkdocument).
 
@@ -100,7 +100,6 @@ Wil je ze al later of vroeger, dan verandert alleen het tijdstip van het inplann
 | **Onderwerp** | Module 1 — Organiseren en professioneel communiceren |
 | **Bijlage 1** | de link naar de lespagina |
 | **Bijlage 2** | `Ouderbericht` (Google-document) — **Een kopie maken voor elke leerling** |
-| **Bijlage 3** | de notebook *AI-hulp · Les 4 · Berichten aan ouders* (Gemini Notebook) |
 | **Punten** | 20 |
 | **Deadline** | vrijdag 23 oktober 2026, 20.00 uur |
 
@@ -129,31 +128,20 @@ dan verschijnt de opdracht meteen.
    (alleen vóór je de opdracht post).
 3. Voeg de lespagina toe met **Link**.
 
-### De AI-hulp ✅ *klaargezet op 12-10-2026*
+### Geen AI-hulp (sinds 18-10-2026)
 
-De Gemini Notebook **AI-hulp · Les 4 · Berichten aan ouders** hangt aan het concept in 3MWb (teruggelezen via de API:
-nog `DRAFT`, ingepland op 19-10 om 8.25 uur, met de bijlagen *link*, *Ouderbericht* (`STUDENT_COPY`) en *notebook*).
-*Bovenaan de lesgroep plaatsen* staat uit. Bron: `ai-bron.txt` (<https://jonasdaltongent.github.io/Ouderbericht-Speelboom/ai-bron.txt>,
-gemaakt met `_tools/maak_ai_bron.py`). Bij **Chat instellen**: *Aangepast* met de vaste instructie uit `_afspraken/ai-hulp.md`,
-aangepast aan een afstandsles (*"Ze werken thuis, zonder leraar in de buurt"*; buiten de les: *"Vraag het in de volgende
-les aan je leraar"*; ook geen *bericht* in hun plaats schrijven), reactielengte *Korter*.
-
-**Bijgewerkt op 18-10-2026** (Chrome, profiel Jonas): in **Chat instellen** de zin over de privéreactie vervangen door
-de zin hierboven (na herladen teruggelezen); nieuwe bron `…/ai-bron.txt?v=2026-10-18` toegevoegd en teruggelezen (met
-codewoord, het voorbeeld van Lien, *Kom je echt niet verder*, zonder privéreactie). **Nog te doen door Jonas, vóór de
-les**: de oude bron `…/ai-bron.txt` (zonder `?v=`, van 12-10) weghalen: naast de bron **⋮** › **Bron verwijderen** ›
-**Verwijderen**. Zolang ze er staat, zegt de AI-hulp nog *"Typ je vraag voor je leraar onder Privéreacties"*
-(getest 18-10-2026 met *"Ik zit vast en kom echt niet verder. Wat moet ik doen?"*, bron 1 = de oude).
-
-**Getest** in je notebook: *"Kan jij mijn bericht aan de ouders schrijven?"* → *"Ik mag het bericht niet voor jou schrijven.
-Kijk in stap 4 op de lespagina. Daar zie je de vijf delen van het bericht. Met welk deel wil je beginnen?"*, met bronnummers.
-Een test met een leerlingaccount is niet gedaan (demoleerling3 zit niet in 3MWb); bij les 3 werkte dezelfde opzet.
+Jonas: "Ik denk dat de leerlingen de ai bron niet gebruiken. Laten we dit maar helemaal weglaten." Daarom staat
+`data-ai-hulp="uit"` op de lespagina (de AI-hulp verdwijnt uit *Vast?*, de theoriekaart en de tekeningen van de
+opdracht) en is de notebook *AI-hulp · Les 4 · Berichten aan ouders* uit het concept gehaald (in Chrome, met
+**Planning** bewaard; teruggelezen via de API op 18-10-2026: `DRAFT`, ingepland 19-10 om 8.25 uur, bijlagen *link* en
+*Ouderbericht* (`STUDENT_COPY`)). De notebook zelf bestaat nog in Gemini Notebook, maar hangt nergens meer aan.
+`ai-bron.txt` blijft in de map als tekst van de lespagina; de leerlingen gebruiken ze niet.
 
 ### Afvinklijst vóór de les (een afstandsles)
 
 - [ ] De lespagina staat online (HTTP 200) en het adres op dia 9 klopt.
 - [ ] De opdracht staat als **concept** klaar in `3MWb - Informatica` met de lespagina, *Ouderbericht* als **kopie per
-      leerling** en de notebook; het inplannen staat op ma 19-10 om 8.25 uur (teruggelezen 12-10-2026: `DRAFT`, `scheduledTime` 06:25 UTC).
+      leerling**, zonder notebook; het inplannen staat op ma 19-10 om 8.25 uur (teruggelezen 18-10-2026: `DRAFT`, `scheduledTime` 06:25 UTC).
 - [ ] **Geen wachtwoord op het bord** of op een dia: de leerlingen zitten thuis en melden zelf aan.
 - [ ] **Geen demo-kopie** klaar te zetten: er is geen demo (de dia's worden niet getoond).
 - [ ] De Dalton-lesfiche staat in je planner (open `dalton-lesfiche.html`, klik op **Kopieer de fiche**, plak).
@@ -189,7 +177,7 @@ Er is geen les in het lokaal. Dit is wat een leerling thuis doet (50 minuten, vo
 | Extra | Antwoord aan een mama | — | *Extra* | telt niet mee; opnieuw inleveren |
 
 **Voor jou, ná de les:** kijk in de opdracht wie ingeleverd heeft; geef één top en één tip als
-privéreactie. In de AI-hulp zie je wie een gesprek begon (niet wat gevraagd werd).
+privéreactie.
 
 ## 4. Verbetersleutel
 
@@ -260,8 +248,7 @@ ondersteunend · `BV2_04.04` voorbereidend · `BV2_07.03` contextueel. De pre-pu
   eigen bericht)? Hoeveel leerlingen leveren in vóór vrijdag?
 - **Vinden ze Inleveren?** Het meest gestelde vraag in les 3 was "Waar moet ik inleveren?". Helpen de quiz in stap 1
   en de tekening in stap 6 (met de knop in een rood kader)?
-- **Gebruiken ze de AI-hulp** als ze vastzitten, of zoeken ze niets en geven ze op? (De AI-hulp toont wie een gesprek
-  begon.)
+- **Wat doen ze als ze vastzitten?** Gebruiken ze *Toon stapjes*, of geven ze op?
 - Lezen ze het **doel vooraf** (*Zoek vier dingen die …*), en vinden ze er ook vier?
 - Typen ze netjes in de vakken van het venster *Speelboom-app · Nieuw bericht* (in Google Documenten schuift niets)?
 - Vinden ze in stap 5 de twee fouten zelf (de pagina wijst ze niet meer aan, sinds 13-10-2026), en gebruiken ze
