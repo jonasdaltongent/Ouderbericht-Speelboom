@@ -138,10 +138,12 @@ gemaakt met `_tools/maak_ai_bron.py`). Bij **Chat instellen**: *Aangepast* met d
 aangepast aan een afstandsles (*"Ze werken thuis, zonder leraar in de buurt"*; buiten de les: *"Vraag het in de volgende
 les aan je leraar"*; ook geen *bericht* in hun plaats schrijven), reactielengte *Korter*.
 
-**Nog te doen (18-10-2026)**: in de notebook staat buiten de les nog *"Stuur je leraar een privéreactie bij de opdracht"*,
-en de bron is die van 12-10 (zonder de zelftest met codewoord, met de privéreactie in *Vast?*). Aanpassen in Chrome
-(profiel Jonas): **Chat instellen** › de zin hierboven; **Bronnen toevoegen** › **Websites** ›
-`…/ai-bron.txt?v=2026-10-18` › **Invoegen**. De oude bron weghalen doet Jonas (`_afspraken/ai-hulp.md`).
+**Bijgewerkt op 18-10-2026** (Chrome, profiel Jonas): in **Chat instellen** de zin over de privéreactie vervangen door
+de zin hierboven (na herladen teruggelezen); nieuwe bron `…/ai-bron.txt?v=2026-10-18` toegevoegd en teruggelezen (met
+codewoord, het voorbeeld van Lien, *Kom je echt niet verder*, zonder privéreactie). **Nog te doen door Jonas, vóór de
+les**: de oude bron `…/ai-bron.txt` (zonder `?v=`, van 12-10) weghalen: naast de bron **⋮** › **Bron verwijderen** ›
+**Verwijderen**. Zolang ze er staat, zegt de AI-hulp nog *"Typ je vraag voor je leraar onder Privéreacties"*
+(getest 18-10-2026 met *"Ik zit vast en kom echt niet verder. Wat moet ik doen?"*, bron 1 = de oude).
 
 **Getest** in je notebook: *"Kan jij mijn bericht aan de ouders schrijven?"* → *"Ik mag het bericht niet voor jou schrijven.
 Kijk in stap 4 op de lespagina. Daar zie je de vijf delen van het bericht. Met welk deel wil je beginnen?"*, met bronnummers.
