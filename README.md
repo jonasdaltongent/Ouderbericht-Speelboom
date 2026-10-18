@@ -72,6 +72,11 @@ de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone 
 - **Route** links, **één stap** in het midden, **checklist** rechts (18 taken). Op een smal scherm staat alles
   onder elkaar. Op 1280 × 650 staat *Wat moet je doen?* (kop op ± 223 px) in elke stap in beeld zonder scrollen.
 - **Handelingen met stapjes**: de les begint in *Kort* (`data-modus-start="kort"`), zonder knop *Stap voor stap / Kort*: de leerling opent per handeling *Toon stapjes* (Jonas, 18-10-2026; tot dan begon ze in *Stap voor stap*, met de knop).
+  Nagelezen in *Kort* op 19-10-2026: de infokaders en het bericht van Lien staan open. Bijgestuurd: stap 4 zegt nu zichtbaar
+  *met de gegevens uit het kader De uitstap* (stond alleen in de stapjes; 3MWb les 3: 5 van de 16 schreven andere data);
+  de tip in stap 5 stuurt naar beide blokken (de fout *capons* zie je alleen in het Engels, *half vier* alleen in de
+  terugvertaling); de Extra noemt de knop **Ongedaan maken** (`_afspraken/klikpaden.md`). In de reservedia's is de AI-hulp
+  weg (dia 1 en 9; *Vast?*: Toon stapjes · je buur · ik).
 - **Titel van de pagina**: *Lespagina · Les 4 · …*: zo heet de link in de opdracht.
 - **Toestel**: `<meta name="toestel" content="chromebook">`; geen Windows-woorden.
 - **AI-hulp**: uit (`data-ai-hulp="uit"` op `<body>`, sinds 18-10-2026; zie hieronder).
@@ -155,12 +160,12 @@ instructievideo). Niet nodig om de les te geven. Zie `_afspraken/filmpjes-en-sch
 
 | Handeling | Klikpad / naam | Bron |
 |---|---|---|
-| Inleveren | **Inleveren** · **Inleveren ongedaan maken** | [Classroom 6020285](https://support.google.com/edu/classroom/answer/6020285?hl=nl&co=GENIE.Platform%3DDesktop) (09-10-2026) |
+| Inleveren | **Inleveren** · **Ongedaan maken** | [Classroom 6020285](https://support.google.com/edu/classroom/answer/6020285?hl=nl&co=GENIE.Platform%3DDesktop) (09-10-2026); *Ongedaan maken* gezien met demoleerling3 (15-10-2026, `_afspraken/klikpaden.md`; op de pagina rechtgezet 19-10-2026) |
 | De opdracht (leerling) | in het midden de bijlagen; rechts **Jouw werk** met de eigen kopie en **Inleveren** | demoleerling3 (09-10-2026), `_afspraken/klikpaden.md` |
 
 Er staan geen knopnamen van Documenten of van een app in de stappen: de leerlingen typen alleen in vakken van
 hun werkdocument. Nog niet nagelezen op een leerlingenaccount: de naam van de knop in het bevestigingsvenster na
-**Inleveren**, en of een leerling met **Inleveren ongedaan maken** opnieuw kan inleveren (de Extra gebruikt het).
+**Inleveren**, en of een leerling met **Ongedaan maken** opnieuw kan inleveren (de Extra gebruikt het).
 
 ## 3. Het verloop van de les
 
@@ -254,7 +259,7 @@ ondersteunend · `BV2_04.04` voorbereidend · `BV2_07.03` contextueel. De pre-pu
 - Vinden ze in stap 5 de twee fouten zelf (de pagina wijst ze niet meer aan, sinds 13-10-2026), en gebruiken ze
   *Kijk na* pas na vraag b? Zetten ze bij de pictogrammen de juiste letters?
 - Klopt de tijd: 50 minuten zonder instructie, met stap 4 van 15 minuten? Hadden velen tijd over voor *Extra*?
-  Werkt **Inleveren ongedaan maken** voor opnieuw inleveren?
+  Werkt **Ongedaan maken** voor opnieuw inleveren?
 - **Zijn de dia's nodig?** Blijkt op 26-10 dat veel leerlingen de les niet maakten, geef ze dan in de klas (de dia's
   staan klaar) en schuif les 5 op.
 - Een instructiefilmpje van 2 minuten (zie boven): nodig als veel leerlingen bij de eerste stappen vastliepen?
