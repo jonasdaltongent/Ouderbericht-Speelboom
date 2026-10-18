@@ -241,7 +241,8 @@ de proef met Google Vertalen (stap 5, § *Bronnenonderzoek*): verander er niets 
 **Het bericht van Lien** (op de lespagina, stap 4; een andere situatie, zodat de leerling de opbouw nadoet maar
 niet overschrijft): *Titel*: Vrijdag 13 november: pyjamadag ·
 ① *Beste ouders,* ② *Vrijdag 13 november is het pyjamadag in De Speelboom. Jullie kind mag in pyjama naar de
-opvang komen.* ③ *Geef een knuffel mee: we lezen samen een verhaal.* ④ *De kinderen kijken er al naar uit!*
+opvang komen. Om 16.00 uur lezen we samen een verhaal.* ③ *Geven jullie een knuffel mee?* (bijgestuurd bij het
+nakijken, 18-10-2026: het voorbeeld toont nu ook een uur in cijfers en *jullie*, zoals het bouwplan vraagt) ④ *De kinderen kijken er al naar uit!*
 ⑤ *Vriendelijke groeten, Lien Verhoeven, begeleider in De Speelboom*
 
 ## 18–19. Zelfstandige verwerking en stappenplan (50')

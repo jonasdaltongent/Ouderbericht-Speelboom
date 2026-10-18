@@ -22,7 +22,7 @@
 
 ```text
 W08 - Les 04 - MW - Berichten aan ouders/
-├── index.html              de lespagina: startpagina in beelden · route · één stap · checklist (6 stappen, 17 taken)
+├── index.html              de lespagina: startpagina in beelden · route · één stap · checklist (6 stappen, 18 taken)
 ├── presentatie.html        10 dia's: de RESERVE (zie hieronder); dia 1 is de vaste startdia
 ├── css/style.css           lespagina (les 3, met .app, .info, .vert-blok, .pict-rij, .kijkna voor deze les)
 ├── css/slides.css          dia's
@@ -70,7 +70,7 @@ de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone 
   (15-10-2026, 11.47, nog `DRAFT`). Dit is een afstandsles: opnieuw proberen mag, dus niemand blijft vast.
 - **Startpagina**: *Wat heb je nodig?* in drie beelden (de opdracht, de lespagina, het werkdocument), één zin
   *Je werkt thuis: alles wat je nodig hebt, staat hier*, *Na deze les kan je*, *Vast?* als genummerde rij.
-- **Route** links, **één stap** in het midden, **checklist** rechts (17 taken). Op een smal scherm staat alles
+- **Route** links, **één stap** in het midden, **checklist** rechts (18 taken). Op een smal scherm staat alles
   onder elkaar. Op 1280 × 650 staat *Wat moet je doen?* (kop op ± 223 px) in elke stap in beeld zonder scrollen.
 - **Stap voor stap / Kort**: de les begint in *Stap voor stap* (`data-modus-start="stap"`).
 - **Titel van de pagina**: *Lespagina · Les 4 · …*: zo heet de link in de opdracht.
