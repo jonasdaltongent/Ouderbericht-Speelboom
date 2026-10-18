@@ -187,7 +187,7 @@ privéreactie.
 ## 4. Verbetersleutel
 
 - **Codewoord** bovenaan deel 5: **EEKHOORN**. Ontbreekt het, dan is de zelftest van stap 6 niet (juist) gemaakt.
-- **Deel 1** (4 punten): b **bellen** (de ouder moet meteen iets doen; een bericht wordt misschien te laat
+- **Deel 1** (3 punten): b **bellen** (de ouder moet meteen iets doen; een bericht wordt misschien te laat
   gelezen) · c **gesprek** bij het afhalen (bellen mag ook): gevoelig, de ouder moet je kunnen horen en zien en iets
   kunnen vragen · d **Speelboom-app**: een korte, praktische vraag, antwoord met een berichtje · e **Speelboom-app**: als
   stagiair geef je je eigen gsm-nummer niet; berichten gaan via de opvang.
@@ -206,11 +206,12 @@ privéreactie.
   *half vier* in de terugvertaling: een uur te vroeg (het Turks zelf, *dört buçuk*, klopt: de fout ontstond bij
   het terugvertalen). b *Om 16.30 uur kunnen jullie je kind ophalen.* (of: *Vanaf 16.30 uur …*) c twee van A–D
   (laars, regenjas, klok, boom); niet E (zwembroek) of F (taart).
-- **Deel 5**, slotvraag: in een bericht zie je geen gezicht en hoor je geen stem; de ouder kan niet meteen iets
+- **Deel 5**, slotvraag (1 punt, sinds 19-10-2026): in een bericht zie je geen gezicht en hoor je geen stem; de ouder kan niet meteen iets
   vragen; het komt sneller verkeerd over.
 
-Punten (20): deel 1: 4 · deel 2: 2 · deel 3: aan en titel 2, wat/dag/uur/meegeven 4, kort-positief-beleefd 4, geen
-hoofdletters/chattaal/dialect/emoji en geen ander kind 2 · deel 4: 2 (`lesvoorbereiding.md` § 22).
+Punten (20): deel 1: 3 · deel 2: 2 · deel 3: aan en titel 2, wat/dag/uur/meegeven 4, kort-positief-beleefd 4, geen
+hoofdletters/chattaal/dialect/emoji en geen ander kind 2 · deel 4: 2 · slotvraag: 1 (`lesvoorbereiding.md` § 22, met
+de verdeling per onderdeel en *Jonas' beslissingen*).
 
 ### Essentiële fouten — geef hier altijd feedback op
 

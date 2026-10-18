@@ -89,7 +89,7 @@ def ouderbericht():
     vraag(doc, "Het codewoord van de zelftest (stap 6 op de lespagina):")
     antwoordvak(doc, 0.9)
     controletabel(doc, [
-        ("Deel 1: bij b tot e staat *Speelboom-app*, *bellen* of *gesprek*, met een reden.", 4),
+        ("Deel 1: bij b tot e staat *Speelboom-app*, *bellen* of *gesprek*, met een reden.", 3),
         ("Deel 2: ik vond vier fouten en schreef erbij hoe het beter kan.", 2),
         ("Deel 3: bij Aan staat *Alle ouders van De Eekhoorns*, en ik schreef een duidelijke titel.", 2),
         ("Deel 3: mijn bericht zegt wat, welke dag en hoe laat (in cijfers), en wat de ouders meegeven.", 4),
@@ -97,6 +97,8 @@ def ouderbericht():
          "mijn naam en *stagiair*.", 4),
         ("Deel 3: geen hoofdletters, chattaal, dialect of emoji's, en geen andere kinderen bij naam.", 2),
         ("Deel 4: de twee fouten van Google Vertalen, de zin zonder die fouten en twee passende pictogrammen.", 2),
+        # 19-10-2026, Jonas: "Geef slotvraag maar punten." Het punt komt van deel 1 (was 4).
+        ("Slotvraag: ik schreef waarom moeilijk nieuws beter niet met een berichtje gaat.", 1),
     ])
     vraag(doc, "Waarom vertel je moeilijk nieuws liever niet met een berichtje in de Speelboom-app?")
     antwoordvak(doc, 1.8)

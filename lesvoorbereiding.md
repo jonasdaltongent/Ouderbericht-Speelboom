@@ -213,6 +213,9 @@ label; zonder knop *Verzenden*; op een eigen bladzijde. (Werkt het goed, dan hoo
 - Deel 5, slotvraag: in een bericht zie je geen gezicht en hoor je geen stem; de ouder kan niet meteen iets
   vragen; het komt sneller verkeerd over.
 
+**Wat niet telt** (voorstel AI, 19-10-2026): een reden die op elke vraag past (*omdat het beter is*, *dat is
+professioneel*) · bij deel 2 een fout die niet in het bericht van Kobe staat, of dezelfde fout twee keer.
+
 ## 15–17. Instructie en demonstratie (Ik doe → Jullie doen)
 
 Er is geen klassikale instructie (afwijking 1). Wat Jonas anders zou voordoen, staat zo op de lespagina:
@@ -283,17 +286,47 @@ Op 20 punten, beoordeeld op het werkdocument (vooral deel 3, het eigen bericht):
 
 | Criterium | Punten |
 |---|---|
-| Deel 1: het juiste kanaal bij b tot e, met een reden | 4 |
+| Deel 1: het juiste kanaal bij b tot e, met een reden | 3 |
 | Deel 2: vier fouten in het bericht van Kobe, met hoe het beter kan | 2 |
 | Deel 3: aan alle ouders van De Eekhoorns, met een duidelijke titel | 2 |
 | Deel 3: wat, welke dag en hoe laat (in cijfers), en wat de ouders meegeven | 4 |
 | Deel 3: kort, positief en beleefd: aanspreking, groet, je naam en *stagiair*; overal *jullie* | 4 |
 | Deel 3: geen hoofdletters, chattaal, dialect of emoji's, en geen andere kinderen bij naam | 2 |
 | Deel 4: de twee fouten van Google Vertalen, de zin zonder die fouten en twee passende pictogrammen | 2 |
+| Slotvraag (deel 5): waarom moeilijk nieuws beter niet met een berichtje in de Speelboom-app gaat | 1 |
+
+**Hoe de punten verdeeld worden** (voorstel AI, 19-10-2026; Jonas past aan bij het verbeteren):
+
+- **Deel 1** (3): een situatie is juist als het kanaal klopt én de reden past (§ 14). Vier juist = 3, drie = 2, twee = 1,
+  minder = 0. Bij c is ook *bellen* juist.
+- **Deel 2** (2): vier fouten met een betere versie = 2, twee of drie = 1. Een fout zonder betere versie telt half.
+- **Deel 3, Aan en titel** (2): 1 voor *Aan* (alle ouders van De Eekhoorns; *alle ouders* volstaat), 1 voor een titel die
+  zegt waarover het gaat (de uitstap, het speelbos).
+- **Deel 3, wat en wanneer** (4): 1 per onderdeel: wat (naar het speelbos) · de dag · het uur in cijfers · wat ze meegeven
+  (minstens twee van laarzen, regenjas, drinkbus met water).
+- **Deel 3, kort, positief en beleefd** (4): 1 per onderdeel: een aanspreking (*Beste ouders,*) · overal *jullie* (een
+  *je* of *u* tussendoor: half) · iets positiefs en geen verwijt · een groet met voornaam, naam en *stagiair*.
+- **Deel 3, geen hoofdletters …** (2): niets daarvan = 2; één soort (bv. één emoji) = 1; meer = 0. Een ander kind bij
+  naam = 0 op dit criterium (en een essentiële fout).
+- **Deel 4** (2): a, de twee fouten (*kapoenen* → *capons*, *half vijf* → *half vier*) = 1, één ervan = ½ · b, een zin
+  zonder *kapoenen* en met het uur in cijfers = ½ · c, twee pictogrammen uit A tot D = ½.
+- **Slotvraag** (1): een reden uit de les (§ 14). Een algemeen antwoord zonder reden (*omdat dat beter is*, *dat mag
+  niet*) = 0.
+
+**De feiten uit het kader *De uitstap*** die in het bericht juist moeten staan: woensdag 18 november · vertrek 13.30 uur
+· terug (en ophalen) 16.30 uur · laarzen, regenjas, drinkbus met water. Een andere dag of een ander uur (ook *half
+twee* in woorden, of *rond 16 uur*) = 0 op dat onderdeel van *wat en wanneer*; ontbreekt de dag of het uur helemaal,
+dan is het ook een essentiële fout.
 
 **Essentiële fouten** (altijd feedback): bij koorts een berichtje in de Speelboom-app in plaats van bellen · andere kinderen
 bij naam in een bericht aan alle ouders · geen dag of geen uur · hoofdletters, chattaal of emoji's · geen naam
 onder het bericht.
+
+### Jonas' beslissingen bij het verbeteren
+
+- 19-10-2026: de slotvraag telt mee, voor 1 punt (Jonas: "Geef slotvraag maar punten"). Dat punt komt van deel 1 (was 4,
+  nu 3; voorstel AI: de slotvraag gaat ook over het kanaal, samen blijft dat 4 punten). Ook in de controletabel van
+  het werkdocument, en het Google-document aan het concept (zelfde bestand, nog `DRAFT`, 01.00 uur).
 
 ## 23. Feedback
 
