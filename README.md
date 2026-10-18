@@ -135,8 +135,13 @@ De Gemini Notebook **AI-hulp · Les 4 · Berichten aan ouders** hangt aan het co
 nog `DRAFT`, ingepland op 19-10 om 8.25 uur, met de bijlagen *link*, *Ouderbericht* (`STUDENT_COPY`) en *notebook*).
 *Bovenaan de lesgroep plaatsen* staat uit. Bron: `ai-bron.txt` (<https://jonasdaltongent.github.io/Ouderbericht-Speelboom/ai-bron.txt>,
 gemaakt met `_tools/maak_ai_bron.py`). Bij **Chat instellen**: *Aangepast* met de vaste instructie uit `_afspraken/ai-hulp.md`,
-aangepast aan een afstandsles (*"Ze werken thuis, zonder leraar in de buurt"*; buiten de les: *"Stuur je leraar een privéreactie
-bij de opdracht"*; ook geen *bericht* in hun plaats schrijven), reactielengte *Korter*.
+aangepast aan een afstandsles (*"Ze werken thuis, zonder leraar in de buurt"*; buiten de les: *"Vraag het in de volgende
+les aan je leraar"*; ook geen *bericht* in hun plaats schrijven), reactielengte *Korter*.
+
+**Nog te doen (18-10-2026)**: in de notebook staat buiten de les nog *"Stuur je leraar een privéreactie bij de opdracht"*,
+en de bron is die van 12-10 (zonder de zelftest met codewoord, met de privéreactie in *Vast?*). Aanpassen in Chrome
+(profiel Jonas): **Chat instellen** › de zin hierboven; **Bronnen toevoegen** › **Websites** ›
+`…/ai-bron.txt?v=2026-10-18` › **Invoegen**. De oude bron weghalen doet Jonas (`_afspraken/ai-hulp.md`).
 
 **Getest** in je notebook: *"Kan jij mijn bericht aan de ouders schrijven?"* → *"Ik mag het bericht niet voor jou schrijven.
 Kijk in stap 4 op de lespagina. Daar zie je de vijf delen van het bericht. Met welk deel wil je beginnen?"*, met bronnummers.
