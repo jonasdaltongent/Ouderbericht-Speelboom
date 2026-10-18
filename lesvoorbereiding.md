@@ -29,10 +29,9 @@ opgesteld_volgens: "_afspraken/ (werkruimte Toegepaste Informatica)"
 >    voorbeeld en *Zo werk je verder* over. **Instructie 0 minuten, keuzewerktijd 50 minuten.**
 > 2. **Chromebook, thuis**: `<meta name="toestel" content="chromebook">`. De les vraagt geen bestanden, geen
 >    Downloads en geen rechtsklik: alleen twee tabbladen, typen in het werkdocument en **Inleveren**.
-> 3. **Hulp thuis**: *Vast?* = *Toon stapjes* → *AI-hulp* → *Je leraar*: een **privéreactie** bij de opdracht
->    (Jonas leest ze later). Dat wijkt af van de opmerking in `_afspraken/klikpaden.md` ("niet als tip op de
->    lespagina"): thuis is er geen buur en geen leraar, dit is de enige weg. Klikpad: onder **Privéreacties**
->    typen › **Posten**.
+> 3. **Hulp thuis**: *Vast?* = *Toon stapjes* → *AI-hulp*. Wie echt niet verder kan, gaat naar de volgende stap
+>    en levert op het einde toch in. Er is geen buur en geen leraar, en **geen privéreactie**: Jonas leest ze niet
+>    (18-10-2026: "Die ga ik toch niet nalezen").
 > 4. **Niet klaar?** staat deze keer wel op de lespagina, in stap 6: thuis zegt niemand het mondeling. Wie om
 >    16.15 uur niet klaar is, werkt verder tot de deadline in de opdracht.
 > 5. **De dia's** worden op 19-10 niet getoond. Ze zijn er als **reserve**: blijkt op 26-10 dat veel leerlingen
@@ -134,8 +133,7 @@ Zie `README.md` §2. Het concept staat klaar in `3MWb - Informatica` en wordt **
 het ma 19-10 om **8.25 uur**, het eerste lesuur (eenmalige uitzondering, Jonas 12-10-2026: "Je mag deze inderdaad
 vroeger publiceren. Je mag ze eenmalig zelfs al op maandag op het eerste lesuur publiceren."; de gewone regel,
 een half uur vóór het lesuur, staat in `_afspraken/publiceren.md`). De AI-hulp
-hangt aan het concept (`_afspraken/ai-hulp.md`). Na de les: één top en één tip als privéreactie, en antwoorden op
-de privéreacties van leerlingen die vastzaten.
+hangt aan het concept (`_afspraken/ai-hulp.md`). Na de les: één top en één tip als privéreactie.
 
 ## 13. Opbouw in Google Classroom
 
@@ -272,8 +270,8 @@ vooraf uitleggen).
   (het bouwplan); de theoriekaart; de stapjes met een beeld; de AI-hulp; de criteria vooraf in deel 5 (Wijze
   lessen, bouwsteen 7: checklist met criteria, aandacht voor vaak voorkomende fouten, uitgewerkte voorbeelden).
 - **Snelle leerlingen**: *Extra* (antwoord aan een mama), na het inleveren.
-- **Thuis vast**: *Toon stapjes* → *AI-hulp* → privéreactie aan de leraar (afwijking 3). Wie echt niet verder
-  kan, gaat naar de volgende stap en levert op het einde in.
+- **Thuis vast**: *Toon stapjes* → *AI-hulp* (afwijking 3). Wie echt niet verder kan, gaat naar de volgende stap
+  en levert op het einde in.
 
 ## 21. Controle van begrip
 

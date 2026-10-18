@@ -47,9 +47,8 @@ Daarom: geen instructie, de lespagina doet alles (de quiz *Weet je het nog?*, he
 de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone les staan bovenaan
 `lesvoorbereiding.md`; de belangrijkste:
 
-- **Vast?** = *Toon stapjes* → *AI-hulp* → *Je leraar*: een **privéreactie** bij de opdracht (onder **Privéreacties**
-  typen › **Posten**). Dat wijkt af van `_afspraken/klikpaden.md` (thuis is er geen buur en geen leraar).
-  `controleer_les.py` laat het toe met `<meta name="afstandsles" content="ja">` (nieuw, zie § 8).
+- **Vast?** = *Toon stapjes* → *AI-hulp*; kom je echt niet verder, ga dan naar de volgende stap en lever op het einde
+  toch in. **Geen privéreactie**: Jonas leest ze niet (18-10-2026: "Die ga ik toch niet nalezen").
 - **Niet klaar?** staat deze keer wel op de lespagina, in stap 6: werk verder tot de deadline.
 - **De dia's** (`presentatie.html`) zijn een **reserve**: ze worden op 19-10 niet getoond (de notities van dia 1
   zeggen het). Blijkt op 26-10 dat veel leerlingen de les niet maakten, dan kan je ze in de klas gebruiken
@@ -150,7 +149,6 @@ Een test met een leerlingaccount is niet gedaan (demoleerling3 zit niet in 3MWb)
       leerling** en de notebook; het inplannen staat op ma 19-10 om 8.25 uur (teruggelezen 12-10-2026: `DRAFT`, `scheduledTime` 06:25 UTC).
 - [ ] **Geen wachtwoord op het bord** of op een dia: de leerlingen zitten thuis en melden zelf aan.
 - [ ] **Geen demo-kopie** klaar te zetten: er is geen demo (de dia's worden niet getoond).
-- [ ] Je Classroom-meldingen staan aan: de **privéreacties** van leerlingen die vastzitten komen binnen.
 - [ ] De Dalton-lesfiche staat in je planner (open `dalton-lesfiche.html`, klik op **Kopieer de fiche**, plak).
 - [ ] Zeg het aan de klas in een ander lesuur: de opdracht staat vanaf 8.25 uur klaar (en de deadline is vrijdag).
 
@@ -163,7 +161,6 @@ instructievideo). Niet nodig om de les te geven. Zie `_afspraken/filmpjes-en-sch
 | Handeling | Klikpad / naam | Bron |
 |---|---|---|
 | Inleveren | **Inleveren** · **Inleveren ongedaan maken** | [Classroom 6020285](https://support.google.com/edu/classroom/answer/6020285?hl=nl&co=GENIE.Platform%3DDesktop) (09-10-2026) |
-| Bericht aan de leraar | onder **Privéreacties** typen › **Posten** | Jonas' scherm (09-10-2026), `_afspraken/klikpaden.md` |
 | De opdracht (leerling) | in het midden de bijlagen; rechts **Jouw werk** met de eigen kopie en **Inleveren** | demoleerling3 (09-10-2026), `_afspraken/klikpaden.md` |
 
 Er staan geen knopnamen van Documenten of van een app in de stappen: de leerlingen typen alleen in vakken van
@@ -184,8 +181,8 @@ Er is geen les in het lokaal. Dit is wat een leerling thuis doet (50 minuten, vo
 | 6 | Nalezen en inleveren | 7 | deel 5 | criteria aankruisen, slotvraag, **Inleveren** |
 | Extra | Antwoord aan een mama | — | *Extra* | telt niet mee; opnieuw inleveren |
 
-**Voor jou, ná de les:** kijk in de opdracht wie ingeleverd heeft en lees de privéreacties; geef één top en één tip
-als privéreactie. In de AI-hulp zie je wie een gesprek begon (niet wat gevraagd werd).
+**Voor jou, ná de les:** kijk in de opdracht wie ingeleverd heeft; geef één top en één tip als
+privéreactie. In de AI-hulp zie je wie een gesprek begon (niet wat gevraagd werd).
 
 ## 4. Verbetersleutel
 
@@ -255,11 +252,9 @@ ondersteunend · `BV2_04.04` voorbereidend · `BV2_07.03` contextueel. De pre-pu
 - **Werken ze alleen door?** Komen ze zonder leraar tot en met stap 6, of haken ze af bij stap 4 (15 minuten, het
   eigen bericht)? Hoeveel leerlingen leveren in vóór vrijdag?
 - **Vinden ze Inleveren?** Het meest gestelde vraag in les 3 was "Waar moet ik inleveren?". Helpen de quiz in stap 1
-  en de tekening in stap 6 (met de knop in een rood kader)? Vragen ze het toch in een privéreactie?
-- **Gebruiken ze de AI-hulp of een privéreactie** als ze vastzitten, of zoeken ze niets en geven ze op? (De AI-hulp toont
-  wie een gesprek begon; de privéreacties lees je in de opdracht.)
-- Werkt de **privéreactie** zoals de klikpaden zeggen (onder **Privéreacties** typen › **Posten**) op het scherm van een
-  leerling?
+  en de tekening in stap 6 (met de knop in een rood kader)?
+- **Gebruiken ze de AI-hulp** als ze vastzitten, of zoeken ze niets en geven ze op? (De AI-hulp toont wie een gesprek
+  begon.)
 - Lezen ze het **doel vooraf** (*Zoek vier dingen die …*), en vinden ze er ook vier?
 - Typen ze netjes in de vakken van het venster *Speelboom-app · Nieuw bericht* (in Google Documenten schuift niets)?
 - Vinden ze in stap 5 de twee fouten zelf (de pagina wijst ze niet meer aan, sinds 13-10-2026), en gebruiken ze
@@ -268,4 +263,4 @@ ondersteunend · `BV2_04.04` voorbereidend · `BV2_07.03` contextueel. De pre-pu
   Werkt **Inleveren ongedaan maken** voor opnieuw inleveren?
 - **Zijn de dia's nodig?** Blijkt op 26-10 dat veel leerlingen de les niet maakten, geef ze dan in de klas (de dia's
   staan klaar) en schuif les 5 op.
-- Een instructiefilmpje van 2 minuten (zie boven): nodig als de eerste stappen veel privéreacties opleveren?
+- Een instructiefilmpje van 2 minuten (zie boven): nodig als veel leerlingen bij de eerste stappen vastliepen?
