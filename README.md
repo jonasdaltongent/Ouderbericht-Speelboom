@@ -71,7 +71,7 @@ de ingevulde eerste rijen, de route met minuten). Zes afwijkingen van de gewone 
   *Je werkt thuis: alles wat je nodig hebt, staat hier*, *Na deze les kan je*, *Vast?* als genummerde rij.
 - **Route** links, **één stap** in het midden, **checklist** rechts (18 taken). Op een smal scherm staat alles
   onder elkaar. Op 1280 × 650 staat *Wat moet je doen?* (kop op ± 223 px) in elke stap in beeld zonder scrollen.
-- **Stap voor stap / Kort**: de les begint in *Stap voor stap* (`data-modus-start="stap"`).
+- **Handelingen met stapjes**: de les begint in *Kort* (`data-modus-start="kort"`), zonder knop *Stap voor stap / Kort*: de leerling opent per handeling *Toon stapjes* (Jonas, 18-10-2026; tot dan begon ze in *Stap voor stap*, met de knop).
 - **Titel van de pagina**: *Lespagina · Les 4 · …*: zo heet de link in de opdracht.
 - **Toestel**: `<meta name="toestel" content="chromebook">`; geen Windows-woorden.
 - **AI-hulp**: uit (`data-ai-hulp="uit"` op `<body>`, sinds 18-10-2026; zie hieronder).

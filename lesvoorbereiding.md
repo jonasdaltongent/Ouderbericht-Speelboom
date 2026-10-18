@@ -254,7 +254,7 @@ nakijken, 18-10-2026: het voorbeeld toont nu ook een uur in cijfers en *jullie*,
 | 6 | Nalezen en inleveren | 7 | deel 5 | de criteria; de tekening van de opdracht met **Inleveren** in een rood kader; *Niet klaar?* (afwijking 4) |
 | Extra | Antwoord aan een mama | — | *Extra* | hoe je opnieuw inlevert; telt niet mee |
 
-De pagina begint in **Stap voor stap** (`data-modus-start="stap"`; Jonas, 12-10-2026). Elke handeling heeft
+De pagina begint in **Kort** (`data-modus-start="kort"`; Jonas, 18-10-2026; tot dan in *Stap voor stap*, Jonas 12-10-2026), zonder knop. Elke handeling heeft
 kleine stapjes met één beeld: uitsneden uit de pdf van *Ouderbericht* (zoals `maak_stapjes.py` in les 3) en
 tekeningen in HTML en CSS (de opdracht, de tabbladen, de Speelboom-app).
 
@@ -331,7 +331,7 @@ emoji's* · *Andere kinderen? Niet in een groepsbericht* · *Eenvoudige taal* ·
 
 ## 28. Interactieve functies
 
-Route met onthouden stap; *Stap voor stap / Kort*; checklist met voortgang; de quiz *Weet je het nog?* (3 vragen,
+Route met onthouden stap; *Toon stapjes* per handeling; checklist met voortgang; de quiz *Weet je het nog?* (3 vragen,
 directe uitleg); *Kijk na* in stap 5; `?leraar`; `data-ai-hulp="uit"` (sinds 18-10-2026). `localStorage` alleen voor vinkjes, stap en
 modus (`speelboom_ouderbericht_v1_`).
 
