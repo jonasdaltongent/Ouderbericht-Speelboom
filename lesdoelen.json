@@ -14,7 +14,7 @@
   "finaliteit": "dubbele finaliteit",
   "lesduur_minuten": 50,
   "evaluatie": "summatief (portfolio)",
-  "deadline": "2026-10-23T20:00",
+  "deadline": "2026-10-26T20:00",
   "bron": "https://github.com/jonasdaltongent/Ouderbericht-Speelboom",
   "doelen": [
     {
@@ -45,5 +45,6 @@
       "code": "BV2_07.03",
       "rol": "contextueel"
     }
-  ]
+  ],
+  "_opmerking_deadline": "Was vr 23-10 om 20 uur. In de planner liep iets fout: 3MWb krijgt ma 26-10 een herkansing, en wie dan inlevert, is niet te laat (Jonas, 24-10-2026)."
 }

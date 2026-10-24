@@ -7,7 +7,7 @@
 **Waar:** thuis, alleen, op de eigen Chromebook (geen leraar in het lokaal)
 **Lesdag:** maandag 19 oktober 2026, 9de lesuur (15.25–16.15): pedagogische studienamiddag
 **Kernleerplandoel:** `BV2_04.01` — digitaal communiceren (toepassen; summatief via het portfolio)
-**Opdracht in Classroom:** *Les 4 — Berichten aan ouders*, deadline vrijdag 23 oktober 2026, 20.00 uur
+**Opdracht in Classroom:** *Les 4 — Berichten aan ouders*, deadline maandag 26 oktober 2026, 20.00 uur
 
 <!-- Beginvragen (stap 1 van CONTEXT.md), beantwoord door Jonas op 12-10-2026:
      klas 3MWb · les 4 van het lessenplan (Berichten aan ouders) · lesdag ma 19-10, 9de uur: de pedagogische
@@ -106,7 +106,7 @@ Wil je ze al later of vroeger, dan verandert alleen het tijdstip van het inplann
 | **Bijlage 1** | de link naar de lespagina |
 | **Bijlage 2** | `Ouderbericht` (Google-document) — **Een kopie maken voor elke leerling** |
 | **Punten** | 20 |
-| **Deadline** | vrijdag 23 oktober 2026, 20.00 uur |
+| **Deadline** | maandag 26 oktober 2026, 20.00 uur |
 
 ```bash
 python3 "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/_tools/zet_opdracht_klaar.py" "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W08 - Les 04 - MW - Berichten aan ouders" --proef
@@ -119,7 +119,7 @@ Je werkt thuis op je Chromebook.
 Open de lespagina en werk stap 1 tot 6 af.
 Je schrijft alles in je werkdocument Ouderbericht. Je hebt niets anders nodig.
 
-Klik op Inleveren, ten laatste vrijdag 23 oktober 2026 om 20.00 uur.
+Klik op Inleveren, ten laatste maandag 26 oktober 2026 om 20.00 uur.
 ```
 
 **Wil je ze zelf eerder tonen?** In het concept kan je het inplannen laten staan; klik je zelf op **Toewijzen**,

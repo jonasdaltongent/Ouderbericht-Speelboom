@@ -138,7 +138,7 @@ een half uur vóór het lesuur, staat in `_afspraken/publiceren.md`). Geen AI-hu
 ## 13. Opbouw in Google Classroom
 
 Klas `3MWb - Informatica`, onderwerp *Module 1 — Organiseren en professioneel communiceren*, opdracht
-**Les 4 — Berichten aan ouders**, 20 punten, deadline **vrijdag 23 oktober 2026, 20.00 uur**. Bijlagen: de
+**Les 4 — Berichten aan ouders**, 20 punten, deadline **maandag 26 oktober 2026, 20.00 uur**. Bijlagen: de
 lespagina (link) en *Ouderbericht* (een kopie voor elke leerling). Geen notebook (sinds 18-10-2026). Geen zip. Instructietekst:
 
 ```text
@@ -341,7 +341,7 @@ privéreactie in Classroom (`_afspraken/evaluatie-en-privacy.md`).
 
 ## 24. Indieninstructies
 
-**Inleveren** in de opdracht, ten laatste vrijdag 23 oktober 2026, 20.00 uur. Er wordt niets verstuurd. De
+**Inleveren** in de opdracht, ten laatste maandag 26 oktober 2026, 20.00 uur. Er wordt niets verstuurd. De
 laatste stap toont waar **Inleveren** staat (de vraag die in les 3 het vaakst kwam), en de quiz in stap 1 vraagt
 het ook.
 
