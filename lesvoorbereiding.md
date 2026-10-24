@@ -327,6 +327,12 @@ onder het bericht.
 - 19-10-2026: de slotvraag telt mee, voor 1 punt (Jonas: "Geef slotvraag maar punten"). Dat punt komt van deel 1 (was 4,
   nu 3; voorstel AI: de slotvraag gaat ook over het kanaal, samen blijft dat 4 punten). Ook in de controletabel van
   het werkdocument, en het Google-document aan het concept (zelfde bestand, nog `DRAFT`, 01.00 uur).
+- 24-10-2026 (de voorstellen van de AI, door Jonas gekozen):
+  - Deel 1: een reden die bij elk kanaal past (*dan worden de ouders ingelicht*) telt niet als reden: de situatie is
+    dan niet juist.
+  - Deel 1e: *gesprek*, met als reden dat berichten via de Speelboom-app gaan en dat je je gsm-nummer niet geeft, telt
+    als juist: de leerling kent de regel.
+  - Deel 3: alleen *woensdag*, zonder 18 november, is ½ voor het onderdeel *de dag*.
 
 ## 23. Feedback
 
