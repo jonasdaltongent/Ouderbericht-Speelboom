@@ -333,6 +333,12 @@ onder het bericht.
   - Deel 1e: *gesprek*, met als reden dat berichten via de Speelboom-app gaan en dat je je gsm-nummer niet geeft, telt
     als juist: de leerling kent de regel.
   - Deel 3: alleen *woensdag*, zonder 18 november, is ½ voor het onderdeel *de dag*.
+- 09-11-2026 (de voorstellen van de AI, door Jonas gekozen):
+  - Deel 3: een bericht over een andere uitstap dan die uit het kader (een andere plaats, dag of uur, of een andere groep)
+    wordt gewoon nagekeken volgens de verdeling hierboven: wat niet klopt met het kader, krijgt 0 voor dat onderdeel; de
+    aanspreking, *jullie*, iets positiefs en de groet tellen. Heel deel 3 krijgt daarom geen 0.
+  - Deel 3: het voorbeeldbericht van Lien van de lespagina (de pyjamadag), overgenomen en ondertekend met de naam van Lien,
+    is geen eigen bericht: heel deel 3 (criteria 3 tot 6, 12 punten) krijgt 0; de andere criteria blijven.
 
 ## 23. Feedback
 
